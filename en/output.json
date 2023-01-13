@@ -1,5 +1,5 @@
 {
-  "bot": "Formify",
+  "welcome": "Hello {0} :wave:\n\nYou receive this message because you are the owner of [**{1}**](https://discord.com/channels/{2}.",
   "yes": "Yes",
   "no": "No"
 }
