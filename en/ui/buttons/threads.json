@@ -1,0 +1,31 @@
+{
+  "closed": {
+    "title": "Thread closed"
+  },
+  "closed_reason": "Thread closed by {0} - {1}",
+  "create": {
+    "has_thread": {
+      "title": "Not Allowed",
+      "description": "This message already has a thread"
+    },
+    "missing_permissions": {
+      "title": "Missing Permissions",
+      "description": "To create a Thread Channel I need the permission `Create Public Threads`."
+    },
+    "reason": "Thread Channel created by {0} - {1}",
+    "default_name": "Submissions {0} - {1}"
+  },
+  "created": {
+    "title": "Thread channel created successfully"
+  },
+  "delete": {
+    "not_allowed": {
+      "title":"Not Allowed",
+      "description": "This button can only be used in public thread channels."
+    },
+    "missing_permissions": {
+      "title": "Missing Permissions",
+      "description": "I need the `Manage Threads` permission to perform this action."
+    }
+  }
+}
