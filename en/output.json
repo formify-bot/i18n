@@ -41,6 +41,73 @@
           "title": "Something went wrong",
           "description": "You could not be unsubscribed from our newsletter. Try again later or send us a message using `/report`"
         }
+      },
+      "threads": {
+        "closed": {
+          "title": "Thread closed"
+        },
+        "closed_reason": "Thread closed by {0} - {1}",
+        "create": {
+          "has_thread": {
+            "title": "Not Allowed",
+            "description": "This message already has a thread"
+          },
+          "missing_permissions": {
+            "title": "Missing Permissions",
+            "description": "To create a Thread Channel I need the permission `Create Public Threads`."
+          },
+          "reason": "Thread Channel created by {0} - {1}",
+          "default_name": "Submissions {0} - {1}"
+        },
+        "created": {
+          "title": "Thread channel created successfully"
+        },
+        "delete": {
+          "not_allowed": {
+            "title": "Not Allowed",
+            "description": "This button can only be used in public thread channels."
+          },
+          "missing_permissions": {
+            "title": "Missing Permissions",
+            "description": "I need the `Manage Threads` permission to perform this action."
+          }
+        }
+      }
+    },
+    "context": {
+      "messages": {
+        "messages": {
+          "not_allowed": {
+            "title": "Not Allowed",
+            "description": "Looks like this message is not linked to a form. You can only use this interaction on messages created with {0}"
+          },
+          "enable": {
+            "error_occurred": {
+              "title": "Something went wrong",
+              "description": "An error occurred while attempting to enable the buttons."
+            }
+          },
+          "disable": {
+            "error_occurred": {
+              "title": "Something went wrong",
+              "description": "An error occurred while attempting to disable the buttons."
+            }
+          },
+          "edit": {
+            "title": "Edit Form Message",
+            "description": "Use the tools below to edit the embed.",
+            "fields": {
+              "message": {
+                "name": "Message",
+                "value": "[This one]({0})"
+              },
+              "form": {
+                "name": "Form",
+                "value": "{0} (`{1}`)"
+              }
+            }
+          }
+        }
       }
     }
   }
