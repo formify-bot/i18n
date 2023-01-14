@@ -8,6 +8,16 @@
         "title": "Form not Found",
         "description": "Looks like this form does not exist."
       }
+    },
+    "news": {
+      "unsubscribed": {
+        "title": "Unsubscribed",
+        "description": "We are sorry that you don't like this newsletter. You will not receive it in the future. If you change your mind, you can always subscribe again by using `/subscribe` on your server."
+      },
+      "something_went_wrong": {
+        "title": "Something went wrong",
+        "description": "You could not be unsubscribed from our newsletter. Try again later or send us a message using `/report`"
+      }
     }
   },
   "ui": {
