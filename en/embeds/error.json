@@ -2,5 +2,9 @@
   "form_not_found": {
     "title": "Form not Found",
     "description": "Looks like this form does not exist."
+  },
+  "something_went_wrong": {
+    "title": "Something went wrong",
+    "description": "Looks like something went wrong with your request. If this error still occurs after retrying, use {0}."
   }
 }
