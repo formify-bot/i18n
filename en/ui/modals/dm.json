@@ -1,0 +1,9 @@
+{
+  "title": "Send Direct Message to User",
+  "components": {
+    "message": {
+      "label": "Message",
+      "placeholder": "The content of your message. You can use /variables here."
+    }
+  }
+}
