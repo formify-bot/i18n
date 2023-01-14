@@ -1,0 +1,8 @@
+{
+  "none": "None",
+  "number": "Number",
+  "email": "Email",
+  "url": "URL",
+  "date": "Date",
+  "regex": "RegEx"
+}
