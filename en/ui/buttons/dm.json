@@ -1,0 +1,25 @@
+{
+  "send": {
+    "invalid_user_reference": {
+      "title": "Invalid User Reference",
+      "description": "Use the button on the initial form submission again."
+    },
+    "invalid_message": {
+      "title": "Invalid Message",
+      "description": "Use the button on the initial form submission again."
+    },
+    "new_form_reply_dm": {
+      "title": "New Form Reply",
+      "description": "You received a new message for one of your form submissions on [**{0}**](https://discord.com/channels/{1})."
+    },
+    "form_reply_thread_message_content": "{0} sent a direct message to the user",
+    "success": {
+      "title": "Direct message sent successfully",
+      "description": "Your message was successfully sent to the user."
+    },
+    "error": {
+      "title": "Message could not be sent",
+      "description": "The message could not be sent. The user may have turned off direct messaging."
+    }
+  }
+}
