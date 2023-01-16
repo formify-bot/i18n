@@ -8,6 +8,22 @@
         "title": "Form not Found",
         "description": "Looks like this form does not exist."
       },
+      "channel_not_found": {
+        "title": "Channel not Found",
+        "description": "Looks like this channel does not exist."
+      },
+      "form_message_not_found": {
+        "title": "Form Message not Found",
+        "description": "Looks like this form message does not exist."
+      },
+      "message_not_found": {
+        "title": "Message not Found",
+        "description": "The message has already been deleted."
+      },
+      "action_not_allowed": {
+        "title": "Not Allowed",
+        "description": "You are not allowed to use this action."
+      },
       "something_went_wrong": {
         "title": "Something went wrong",
         "description": "Looks like something went wrong with your request. If this error still occurs after retrying, use {0}."
@@ -57,6 +73,26 @@
           }
         }
       },
+      "messages": {
+        "create": {
+          "missing_permissions": {
+            "title": "Missing Permissions",
+            "description": "The message could not be created. Usually this error message is triggered due to missing permissions"
+          },
+          "success": {
+            "title": "Message created"
+          }
+        },
+        "edit": {
+          "missing_permissions": {
+            "title": "Missing Permissions",
+            "description": "The message could not be updated. Usually this error message is triggered due to missing permissions"
+          },
+          "success": {
+            "title": "Message updated"
+          }
+        }
+      },
       "news": {
         "unsubscribed": {
           "title": "Unsubscribed",
@@ -65,6 +101,36 @@
         "something_went_wrong": {
           "title": "Something went wrong",
           "description": "You could not be unsubscribed from our newsletter. Try again later or send us a message using `/report`"
+        }
+      },
+      "private_channel": {
+        "close": {
+          "remove_member_reason": "User removed through button interaction by {0} - {1}",
+          "missing_permissions": {
+            "title": "Missing Permissions",
+            "description": "In order to remove the form submitter from this channel, grant me the `Manage Roles` permission."
+          },
+          "permission_overwrite_error": {
+            "title": "Something went wrong",
+            "description": "An error occurred while trying to overwrite the permissions for this channel."
+          },
+          "success": {
+            "title": "Channel Closed"
+          },
+          "delete_this_channel": "Delete this Channel"
+        },
+        "create": {
+          "user_not_found": {
+            "title": "User not Found",
+            "description": "The form submitter left the server."
+          },
+          "form_not_found": {
+            "description": "Private channels can only be created for existing forms"
+          },
+          "success": {
+            "title": "Channel Created Successfully",
+            "description": "Head over to {0} to start your conversation with {1}."
+          }
         }
       },
       "threads": {
