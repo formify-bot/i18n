@@ -1,0 +1,20 @@
+{
+  "create": {
+    "missing_permissions": {
+      "title": "Missing Permissions",
+      "description": "The message could not be created. Usually this error message is triggered due to missing permissions"
+    },
+    "success": {
+      "title": "Message created"
+    }
+  },
+  "edit": {
+    "missing_permissions": {
+      "title": "Missing Permissions",
+      "description": "The message could not be updated. Usually this error message is triggered due to missing permissions"
+    },
+    "success": {
+      "title": "Message updated"
+    }
+  }
+}

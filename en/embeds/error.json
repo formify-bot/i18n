@@ -3,6 +3,22 @@
     "title": "Form not Found",
     "description": "Looks like this form does not exist."
   },
+  "channel_not_found": {
+    "title": "Channel not Found",
+    "description": "Looks like this channel does not exist."
+  },
+  "form_message_not_found": {
+    "title": "Form Message not Found",
+    "description": "Looks like this form message does not exist."
+  },
+  "message_not_found": {
+    "title": "Message not Found",
+    "description": "The message has already been deleted."
+  },
+  "action_not_allowed": {
+    "title": "Not Allowed",
+    "description": "You are not allowed to use this action."
+  },
   "something_went_wrong": {
     "title": "Something went wrong",
     "description": "Looks like something went wrong with your request. If this error still occurs after retrying, use {0}."
