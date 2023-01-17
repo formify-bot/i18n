@@ -1,0 +1,10 @@
+{
+  "could_not_be_converted": {
+    "title": "Form submission could not be converted",
+    "description": "Something went wrong, please try again later."
+  },
+  "converted": {
+    "title": "Form submission converted successfully",
+    "description": "You can now download the form submission by clicking on the file in this message."
+  }
+}
