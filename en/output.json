@@ -211,6 +211,54 @@
           }
         }
       }
+    },
+    "select_menus": {
+      "role": {
+        "roles": {
+          "unable_to_fetch_guild_member": {
+            "title": "Unable to fetch guild member",
+            "description": "This is an error on our side. Try again or report this issue using {0}."
+          },
+          "unable_to_fetch_guild_roles": {
+            "title": "Unable to fetch guild roles",
+            "description": "I'm unable to fetch the guild roles. Make sure I have the right permissions and try again."
+          },
+          "missing_permissions": {
+            "title": "Missing Permissions",
+            "description": "With my current permissions I'm unable to mange roles. Grant me the `Manage Roles` permission and try again."
+          },
+          "unable_to_assign_managed_roles": {
+            "title": "Unable to Assign managed Roles",
+            "description": "Roles managed by an interaction cannot be assigned to users. Update your selection and try again.\n\nFollowing roles in your selection are affected: {0}."
+          },
+          "unable_to_assign": {
+            "title": "Some of the selected roles cannot be assigned",
+            "description": "Due to the role hierarchy, some of the selected roles cannot be assigned. The following roles are affected by this error: {0}.\n\nKeep in mind, bot roles cannot be assigned at all. We filtered these out. Update the role hierarchy as shown below and try again."
+          },
+          "assigned": {
+            "title": "Role Assigned",
+            "description": "Assigned following roles to {0}: {1}"
+          }
+        }
+      },
+      "string": {
+        "download": {
+          "could_not_be_converted": {
+            "title": "Form submission could not be converted",
+            "description": "Something went wrong, please try again later."
+          },
+          "converted": {
+            "title": "Form submission converted successfully",
+            "description": "You can now download the form submission by clicking on the file in this message."
+          }
+        },
+        "rating": {
+          "thank_you": {
+            "title": "Thank you for your feedback",
+            "description": "If you have any detailed suggestions for improvement, feel free to use {0} to let us know."
+          }
+        }
+      }
     }
   }
 }
