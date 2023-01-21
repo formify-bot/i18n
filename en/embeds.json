@@ -1,0 +1,10 @@
+{
+  "data_deletion_completed": {
+    "title": "Deletion Completed",
+    "description": "All data related to your server has been successfully deleted. Formify will now leave the server."
+  },
+  "thank_you": {
+    "title": "Thank you for your feedback",
+    "description": "If you have any detailed suggestions for improvement, feel free to use {0} to let us know."
+  }
+}

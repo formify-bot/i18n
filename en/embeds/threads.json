@@ -2,7 +2,6 @@
   "closed": {
     "title": "Thread closed"
   },
-  "closed_reason": "Thread closed by {0} - {1}",
   "create": {
     "has_thread": {
       "title": "Not Allowed",
@@ -11,9 +10,7 @@
     "missing_permissions": {
       "title": "Missing Permissions",
       "description": "To create a Thread Channel I need the permission `Create Public Threads`."
-    },
-    "reason": "Thread Channel created by {0} - {1}",
-    "default_name": "Submissions {0} - {1}"
+    }
   },
   "created": {
     "title": "Thread channel created successfully"

@@ -1,0 +1,5 @@
+{
+  "private_channel_member_removed": "User removed through button interaction by {0} - {1}",
+  "thread_closed": "Thread closed by {0} - {1}",
+  "thread_created": "Thread Channel created by {0} - {1}"
+}

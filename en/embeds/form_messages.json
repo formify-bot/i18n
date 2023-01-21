@@ -1,0 +1,42 @@
+{
+  "could_not_be_created": {
+    "title": "Missing Permissions",
+    "description": "The message could not be created. Usually this error message is triggered due to missing permissions"
+  },
+  "created_successfully": {
+    "title": "Message created"
+  },
+  "could_not_be_updated": {
+    "title": "Missing Permissions",
+    "description": "The message could not be updated. Usually this error message is triggered due to missing permissions"
+  },
+  "updated_successfully": {
+    "title": "Message updated"
+  },
+  "not_linked_to_form": {
+    "title": "Not Allowed",
+    "description": "Looks like this message is not linked to a form. You can only use this interaction on messages created with {0}"
+  },
+  "unable_to_enable_buttons": {
+    "title": "Something went wrong",
+    "description": "An error occurred while attempting to enable the buttons."
+  },
+  "unable_to_disable_buttons": {
+    "title": "Something went wrong",
+    "description": "An error occurred while attempting to disable the buttons."
+  },
+  "edit": {
+    "title": "Edit Form Message",
+    "description": "Use the tools below to edit the embed.",
+    "fields": {
+      "message": {
+        "name": "Message",
+        "value": "[This one]({0})"
+      },
+      "form": {
+        "name": "Form",
+        "value": "{0} (`{1}`)"
+      }
+    }
+  }
+}
