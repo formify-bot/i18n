@@ -1,0 +1,29 @@
+{
+  "close": {
+    "missing_permissions": {
+      "title": "Missing Permissions",
+      "description": "In order to remove the form submitter from this channel, grant me the `Manage Roles` permission."
+    },
+    "permission_overwrite_error": {
+      "title": "Something went wrong",
+      "description": "An error occurred while trying to overwrite the permissions for this channel."
+    },
+    "success": {
+      "title": "Channel Closed"
+    },
+    "delete_this_channel": "Delete this Channel"
+  },
+  "create": {
+    "user_not_found": {
+      "title": "User not Found",
+      "description": "The form submitter left the server."
+    },
+    "form_not_found": {
+      "description": "Private channels can only be created for existing forms"
+    },
+    "success": {
+      "title": "Channel Created Successfully",
+      "description": "Head over to {0} to start your conversation with {1}."
+    }
+  }
+}
