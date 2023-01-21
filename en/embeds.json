@@ -10,5 +10,9 @@
   "variables": {
     "title": "Variables",
     "description": "**User**\n`{user}` -> User Mention\n`{user.name}` -> Username + Tag\n`{user.username}` -> Username\n`{user.discriminator}` -> User Discriminator\n`{user.avatar}` -> User Avatar URL"
+  },
+  "support": {
+    "title": "Are you looking for help?",
+    "description": "Our [support server]({0}) is the best place for all formify questions. You can even participate in the development and suggest new features."
   }
 }
