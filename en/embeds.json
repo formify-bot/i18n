@@ -9,6 +9,6 @@
   },
   "variables": {
     "title": "Variables",
-    "description": "**User**\n\n`{user}` -> User Mention\n`{user.name}` -> Username + Tag\n`{user.username}` -> Username\n`{user.discriminator}` -> User Discriminator\n`{user.avatar}` -> User Avatar URL"
+    "description": "**User**\n`{user}` -> User Mention\n`{user.name}` -> Username + Tag\n`{user.username}` -> Username\n`{user.discriminator}` -> User Discriminator\n`{user.avatar}` -> User Avatar URL"
   }
 }
