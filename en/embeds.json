@@ -6,5 +6,9 @@
   "thank_you": {
     "title": "Thank you for your feedback",
     "description": "If you have any detailed suggestions for improvement, feel free to use {0} to let us know."
+  },
+  "variables": {
+    "title": "Variables",
+    "description": "**User**\n\n`{user}` -> User Mention\n`{user.name}` -> Username + Tag\n`{user.username}` -> Username\n`{user.discriminator}` -> User Discriminator\n`{user.avatar}` -> User Avatar URL"
   }
 }
