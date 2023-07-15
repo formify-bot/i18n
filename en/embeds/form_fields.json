@@ -1,0 +1,87 @@
+{
+  "add": {
+    "limit_reached": {
+      "title": "Form field limit reached",
+      "description": "You reached your form field limit. You can create up to 5 form fields."
+    },
+    "label_invalid_length": {
+      "title": "Invalid Input",
+      "description": "`label` must be 45 or fewer in length"
+    },
+    "placeholder_invalid_length": {
+      "title": "Invalid Input",
+      "description": "`placeholder` must be 100 or fewer in length"
+    }
+  },
+  "edit": {
+    "invalid_input": {
+      "title": "Invalid input",
+      "description": "You have to specifiy at least one item."
+    },
+    "field_not_found": {
+      "title": "Invalid Input",
+      "description": "We couldn't find this field in this form"
+    },
+    "label": {
+      "invalid_length": {
+        "title": "Invalid Input",
+        "description": "`label` must be 45 or fewer in length"
+      }
+    },
+    "placeholder": {
+      "invalid_length": {
+        "title": "Invalid Input",
+        "description": "`placeholder` must be 100 or fewer in length"
+      }
+    },
+    "min_length": {
+      "invalid_range": {
+        "title": "Invalid Input",
+        "description": "`min_length` must be between 1 and 4000"
+      },
+      "invalid": {
+        "title": "Invalid Input",
+        "description": "You must adjust the defined field value to the new length limits to change `min_length`."
+      }
+    },
+    "max_length": {
+      "invalid_range": {
+        "title": "Invalid Input",
+        "description": "`max_length` must be between 1 and 4000"
+      },
+      "invalid": {
+        "title": "Invalid Input",
+        "description": "You must adjust the defined field value to the new length limits to change `max_length`."
+      }
+    },
+    "cannot_be_greater": {
+      "title": "Invalid Input",
+      "description": "`min_length` cannot be greater than `max_length`"
+    },
+    "value": {
+      "less_than": {
+        "title": "Invalid Input",
+        "description": "The length of the form field `value` cannot be less than `min_length`"
+      },
+      "greater_than": {
+        "title": "Invalid Input",
+        "description": "The length of the form field `value` cannot be greater than `max_length`"
+      }
+    }
+  },
+  "remove": {
+    "field_not_found": {
+      "title": "Form field not found",
+      "description": "Looks like this form field does not exist. Make sure to copy the right ID."
+    }
+  },
+  "validator": {
+    "disabled": {
+      "title": "Validator Disabled"
+    },
+    "invalid_payload": {
+      "title": "Invalid Payload",
+      "description": "For a regex validator, a regex pattern must be specified."
+    }
+  }
+}
