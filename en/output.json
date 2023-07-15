@@ -1,0 +1,249 @@
+{
+  "welcome": "Hello {0} :wave:\n\nYou receive this message because you are the owner of [**{1}**](https://discord.com/channels/{2}.",
+  "thread_default_name": "Submissions {0} - {1}",
+  "embeds": {
+    "dm": {
+      "invalid_user_reference": {
+        "title": "Invalid User Reference",
+        "description": "Use the button on the initial form submission again."
+      },
+      "invalid_message": {
+        "title": "Invalid Message",
+        "description": "Use the button on the initial form submission again."
+      },
+      "new_form_reply_dm": {
+        "title": "New Form Reply",
+        "description": "You received a new message for one of your form submissions on [**{0}**](https://discord.com/channels/{1})."
+      },
+      "form_reply_thread_message_content": "{0} sent a direct message to the user",
+      "send": {
+        "success": {
+          "title": "Direct message sent successfully",
+          "description": "Your message was successfully sent to the user."
+        },
+        "error": {
+          "title": "Message could not be sent",
+          "description": "The message could not be sent. The user may have turned off direct messaging."
+        }
+      }
+    },
+    "download": {
+      "could_not_be_converted": {
+        "title": "Form submission could not be converted",
+        "description": "Something went wrong, please try again later."
+      },
+      "converted": {
+        "title": "Form submission converted successfully",
+        "description": "You can now download the form submission by clicking on the file in this message."
+      }
+    },
+    "error": {
+      "form_not_found": {
+        "title": "Form not Found",
+        "description": "Looks like this form does not exist."
+      },
+      "channel_not_found": {
+        "title": "Channel not Found",
+        "description": "Looks like this channel does not exist."
+      },
+      "form_message_not_found": {
+        "title": "Form Message not Found",
+        "description": "Looks like this form message does not exist."
+      },
+      "message_not_found": {
+        "title": "Message not Found",
+        "description": "The message has already been deleted."
+      },
+      "action_not_allowed": {
+        "title": "Not Allowed",
+        "description": "You are not allowed to use this action."
+      },
+      "something_went_wrong": {
+        "title": "Something went wrong",
+        "description": "Looks like something went wrong with your request. If this error still occurs after retrying, use {0}."
+      }
+    },
+    "form_messages": {
+      "could_not_be_created": {
+        "title": "Missing Permissions",
+        "description": "The message could not be created. Usually this error message is triggered due to missing permissions"
+      },
+      "created_successfully": {
+        "title": "Message created"
+      },
+      "could_not_be_updated": {
+        "title": "Missing Permissions",
+        "description": "The message could not be updated. Usually this error message is triggered due to missing permissions"
+      },
+      "updated_successfully": {
+        "title": "Message updated"
+      },
+      "not_linked_to_form": {
+        "title": "Not Allowed",
+        "description": "Looks like this message is not linked to a form. You can only use this interaction on messages created with {0}"
+      },
+      "unable_to_enable_buttons": {
+        "title": "Something went wrong",
+        "description": "An error occurred while attempting to enable the buttons."
+      },
+      "unable_to_disable_buttons": {
+        "title": "Something went wrong",
+        "description": "An error occurred while attempting to disable the buttons."
+      },
+      "edit": {
+        "title": "Edit Form Message",
+        "description": "Use the tools below to edit the embed.",
+        "fields": {
+          "message": {
+            "name": "Message",
+            "value": "[This one]({0})"
+          },
+          "form": {
+            "name": "Form",
+            "value": "{0} (`{1}`)"
+          }
+        }
+      }
+    },
+    "news": {
+      "unsubscribed": {
+        "title": "Unsubscribed",
+        "description": "We are sorry that you don't like this newsletter. You will not receive it in the future. If you change your mind, you can always subscribe again by using `/subscribe` on your server."
+      },
+      "something_went_wrong": {
+        "title": "Something went wrong",
+        "description": "You could not be unsubscribed from our newsletter. Try again later or send us a message using `/report`"
+      }
+    },
+    "private_channel": {
+      "close": {
+        "missing_permissions": {
+          "title": "Missing Permissions",
+          "description": "In order to remove the form submitter from this channel, grant me the `Manage Roles` permission."
+        },
+        "permission_overwrite_error": {
+          "title": "Something went wrong",
+          "description": "An error occurred while trying to overwrite the permissions for this channel."
+        },
+        "success": {
+          "title": "Channel Closed"
+        },
+        "delete_this_channel": "Delete this Channel"
+      },
+      "create": {
+        "user_not_found": {
+          "title": "User not Found",
+          "description": "The form submitter left the server."
+        },
+        "form_not_found": {
+          "description": "Private channels can only be created for existing forms"
+        },
+        "success": {
+          "title": "Channel Created Successfully",
+          "description": "Head over to {0} to start your conversation with {1}."
+        }
+      }
+    },
+    "roles": {
+      "unable_to_fetch_guild_member": {
+        "title": "Unable to fetch guild member",
+        "description": "This is an error on our side. Try again or report this issue using {0}."
+      },
+      "unable_to_fetch_guild_roles": {
+        "title": "Unable to fetch guild roles",
+        "description": "I'm unable to fetch the guild roles. Make sure I have the right permissions and try again."
+      },
+      "missing_permissions": {
+        "title": "Missing Permissions",
+        "description": "With my current permissions I'm unable to mange roles. Grant me the `Manage Roles` permission and try again."
+      },
+      "unable_to_assign_managed_roles": {
+        "title": "Unable to Assign managed Roles",
+        "description": "Roles managed by an interaction cannot be assigned to users. Update your selection and try again.\n\nFollowing roles in your selection are affected: {0}."
+      },
+      "unable_to_assign": {
+        "title": "Some of the selected roles cannot be assigned",
+        "description": "Due to the role hierarchy, some of the selected roles cannot be assigned. The following roles are affected by this error: {0}.\n\nKeep in mind, bot roles cannot be assigned at all. We filtered these out. Update the role hierarchy as shown below and try again."
+      },
+      "assigned": {
+        "title": "Role Assigned",
+        "description": "Assigned following roles to {0}: {1}"
+      }
+    },
+    "threads": {
+      "closed": {
+        "title": "Thread closed"
+      },
+      "create": {
+        "has_thread": {
+          "title": "Not Allowed",
+          "description": "This message already has a thread"
+        },
+        "missing_permissions": {
+          "title": "Missing Permissions",
+          "description": "To create a Thread Channel I need the permission `Create Public Threads`."
+        }
+      },
+      "created": {
+        "title": "Thread channel created successfully"
+      },
+      "delete": {
+        "not_allowed": {
+          "title": "Not Allowed",
+          "description": "This button can only be used in public thread channels."
+        },
+        "missing_permissions": {
+          "title": "Missing Permissions",
+          "description": "I need the `Manage Threads` permission to perform this action."
+        }
+      }
+    },
+    "data_deletion_completed": {
+      "title": "Deletion Completed",
+      "description": "All data related to your server has been successfully deleted. Formify will now leave the server."
+    },
+    "thank_you": {
+      "title": "Thank you for your feedback",
+      "description": "If you have any detailed suggestions for improvement, feel free to use {0} to let us know."
+    },
+    "variables": {
+      "title": "Variables",
+      "description": "**User**\n`{user}` -> User Mention\n`{user.name}` -> Username + Tag\n`{user.username}` -> Username\n`{user.discriminator}` -> User Discriminator\n`{user.avatar}` -> User Avatar URL"
+    },
+    "support": {
+      "title": "Are you looking for help?",
+      "description": "Our [support server]({0}) is the best place for all formify questions. You can even participate in the development and suggest new features."
+    }
+  },
+  "reasons": {
+    "private_channel_member_removed": "User removed through button interaction by {0} - {1}",
+    "thread_closed": "Thread closed by {0} - {1}",
+    "thread_created": "Thread Channel created by {0} - {1}"
+  },
+  "ui": {
+    "buttons": {
+      "private_channel": {
+        "delete_this_channel": "Delete this Channel"
+      }
+    },
+    "modals": {
+      "dm": {
+        "title": "Send Direct Message to User",
+        "components": {
+          "message": {
+            "label": "Message",
+            "placeholder": "The content of your message. You can use /variables here."
+          }
+        }
+      }
+    }
+  },
+  "validator": {
+    "none": "None",
+    "number": "Number",
+    "email": "Email",
+    "url": "URL",
+    "date": "Date",
+    "regex": "RegEx"
+  }
+}
