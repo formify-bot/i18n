@@ -63,6 +63,38 @@
         "description": "Looks like something went wrong with your request. If this error still occurs after retrying, use {0}."
       }
     },
+    "form_commands": {
+      "create": {
+        "already_linked": {
+          "title": "Already linked",
+          "description": "You already linked a slash command to this form. Use {0} instead."
+        },
+        "name": {
+          "invalid_length": {
+            "title": "Invalid Input",
+            "description": "`name` must be 32 or fewer in length"
+          },
+          "invalid_format": {
+            "title": "Invalid Input",
+            "description": "`name` is invalid. Use {0} to check your slash command name."
+          },
+          "reserved": {
+            "title": "Invalid Input",
+            "description": "`{0}` is a reserved name. You cannot use it."
+          }
+        },
+        "description": {
+          "invalid_length": {
+            "title": "Invalid Input",
+            "description": "`description` must be 100 or fewer in length"
+          }
+        },
+        "success": {
+          "title": "Slash command created",
+          "description": "You successfully linked `{0}` to form `{1}`. You can now use </{0}:{2}> to open this form."
+        }
+      }
+    },
     "form_messages": {
       "could_not_be_created": {
         "title": "Missing Permissions",
@@ -103,6 +135,12 @@
             "value": "{0} (`{1}`)"
           }
         }
+      }
+    },
+    "forms": {
+      "not_found": {
+        "title": "Form not found",
+        "description": "Looks like this form does not exist."
       }
     },
     "news": {
