@@ -93,6 +93,39 @@
           "title": "Slash command created",
           "description": "You successfully linked `{0}` to form `{1}`. You can now use </{0}:{2}> to open this form."
         }
+      },
+      "delete": {
+        "no_command_found": {
+          "title": "No command found",
+          "description": "Looks like there is no command linked to this form."
+        },
+        "success": {
+          "title": "Form command deleted"
+        }
+      },
+      "edit": {
+        "no_command_found": {
+          "title": "No command found",
+          "description": "You have to create a command using {0}"
+        },
+        "input_required": {
+          "title": "Invalid Input",
+          "description": "`name` or `description` must be defined"
+        },
+        "success": {
+          "title": "Slash command updated",
+          "description": "We successfully updated your slash command for *{0}*",
+          "fields": {
+            "name": {
+              "name": "Name",
+              "value": "{0}"
+            },
+            "description": {
+              "name": "Description",
+              "value": "{0}"
+            }
+          }
+        }
       }
     },
     "form_messages": {
