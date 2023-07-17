@@ -1,0 +1,26 @@
+{
+  "create": {
+    "title_invalid_length": {
+      "title": "Invalid Input",
+      "description": "`title` must be 45 or fewer in length"
+    },
+    "channel_must_be_defined": {
+      "title": "Invalid Input",
+      "description": "`channel` must be defined"
+    },
+    "limit_reached": {
+      "title": "Form limit reached",
+      "description": "You reached your form limit. You can create up to 25 forms."
+    },
+    "created": {
+      "title": "Form created",
+      "description": "Your form has been created successfully.",
+      "fields": {
+        "add_fields": {
+          "name": "Add form fields",
+          "value": "You can add form fields using {0} with `{1}` as form."
+        }
+      }
+    }
+  }
+}
