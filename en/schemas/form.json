@@ -1,0 +1,10 @@
+{
+  "name": "form",
+  "name_localizations": {
+    "de": "formular"
+  },
+  "description": "Create powerfull forms inside Discord",
+  "description_localizations": {
+    "de": "Erstelle Formulare in Discord"
+  }
+}
