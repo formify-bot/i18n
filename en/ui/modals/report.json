@@ -1,0 +1,8 @@
+{
+  "title": "Report an Issue or give a Suggestion",
+  "components": {
+    "issue": {
+      "label": "I've found an issue..."
+    }
+  }
+}
