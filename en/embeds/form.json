@@ -22,5 +22,26 @@
         }
       }
     }
+  },
+  "delete": {
+    "deleted": {
+      "title": "Form deleted"
+    }
+  },
+  "edit": {
+    "auto_create_not_allowed": {
+      "title": "Not Allowed",
+      "description": "To enable automatic creation of private channels, you must first specify a parent using {0}."
+    }
+  },
+  "ratelimit": {
+    "setup_required": {
+      "title": "Setup Required",
+      "description": "Rate limiting is not configured for this form. Use all three command arguments `enabled`, `amount` and `timespan` to setup rate limiting."
+    },
+    "invalid_timespan": {
+      "title": "Invalid Timespan",
+      "description": "The `timespan` could not be formatted correctly. Please use the following format:\n\n`45s` → *45 seconds*\n`2m` → *2 minutes*\n`4h` → *4 hours*\n`1d` → *1 day*"
+    }
   }
 }
