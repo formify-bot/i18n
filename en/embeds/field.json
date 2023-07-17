@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "label": {
+      "name": "Label"
+    },
+    "placeholder": {
+      "name": "Placeholder"
+    },
+    "value": {
+      "name": "Prefilled Value"
+    },
+    "style": {
+      "name": "Style",
+      "short": "Short",
+      "paragraph": "Paragraph"
+    },
+    "required": {
+      "name": "Required"
+    },
+    "min_length": {
+      "name": "Min. Length"
+    },
+    "max_length": {
+      "name": "Max. Length"
+    },
+    "validator": {
+      "name": "Validator"
+    }
+  }
+}

@@ -2,5 +2,6 @@
   "welcome": "Hello {0} :wave:\n\nYou receive this message because you are the owner of [**{1}**](https://discord.com/channels/{2}.",
   "thread_default_name": "Submissions {0} - {1}",
   "name_is_valid": "`{0}` is valid",
-  "name_is_invalid": "`{0}` is invalid"
+  "name_is_invalid": "`{0}` is invalid",
+  "none": "None"
 }
