@@ -3,6 +3,7 @@
   "thread_default_name": "Submissions {0} - {1}",
   "name_is_valid": "`{0}` is valid",
   "name_is_invalid": "`{0}` is invalid",
+  "none": "None",
   "defaults": {
     "form_message_open_button_text": "Open Form",
     "form_message_editor_description": "Use the button below to open up the form."
@@ -80,6 +81,36 @@
       "something_went_wrong": {
         "title": "Something went wrong",
         "description": "Looks like something went wrong with your request. If this error still occurs after retrying, use {0}."
+      }
+    },
+    "field": {
+      "fields": {
+        "label": {
+          "name": "Label"
+        },
+        "placeholder": {
+          "name": "Placeholder"
+        },
+        "value": {
+          "name": "Prefilled Value"
+        },
+        "style": {
+          "name": "Style",
+          "short": "Short",
+          "paragraph": "Paragraph"
+        },
+        "required": {
+          "name": "Required"
+        },
+        "min_length": {
+          "name": "Min. Length"
+        },
+        "max_length": {
+          "name": "Max. Length"
+        },
+        "validator": {
+          "name": "Validator"
+        }
       }
     },
     "form": {
@@ -360,6 +391,40 @@
               "empty": "You can link custom messages to this form using {0}."
             }
           }
+        },
+        "fields": {
+          "root": {
+            "title": "Form Fields",
+            "fields": {
+              "title": {
+                "name": "Title"
+              },
+              "fields": {
+                "name": "Fields",
+                "value": {
+                  "list": "Below is a list of all your form fields. To edit one of them use {0}.",
+                  "empty": "You have not added any fields to your form yet. Add your first field using {0}."
+                }
+              }
+            }
+          }
+        },
+        "roles": {
+          "title": "Roles",
+          "fields": {
+            "allowed_roles": {
+              "name": "Allowed Roles",
+              "value": "Members need at least one of these roles to use this form:\n\n{0}"
+            },
+            "blocked_roles": {
+              "name": "Blocked Roles",
+              "value": "Members with any of the following roles **may not** use this form:\n\n{0}"
+            },
+            "notify_roles": {
+              "name": "Notify Roles",
+              "value": "These roles receive a ping each time a new form is submitted:\n\n{0}"
+            }
+          }
         }
       },
       "create": {
@@ -571,7 +636,8 @@
         "configure_roles": "Configure Roles",
         "ratelimit": "Ratelimit Settings",
         "private_channel": "Private Channel Settings",
-        "forum_channel": "Forum Channel Settings"
+        "forum_channel": "Forum Channel Settings",
+        "back": "Back"
       },
       "private_channel": {
         "delete_this_channel": "Delete this Channel"
@@ -595,6 +661,13 @@
             "label": "I've found an issue..."
           }
         }
+      }
+    },
+    "select_menus": {
+      "field": {
+        "allowed_roles": "Allowed Roles",
+        "blocked_roles": "Blocked Roles",
+        "notify_roles": "Notify Roles"
       }
     }
   },
