@@ -326,6 +326,42 @@
           "description": "To delete a created form message, simply delete the Discord message."
         }
       },
+      "pages": {
+        "initial": {
+          "root": {
+            "fields": {
+              "enabled": {
+                "name": "Enabled"
+              },
+              "title": {
+                "name": "Title"
+              },
+              "channel": {
+                "name": "Channel"
+              },
+              "command": {
+                "name": "Command",
+                "value": "Open your form through a command. To create one use {0}."
+              },
+              "user_message": {
+                "name": "User Message",
+                "value": "*None*"
+              },
+              "thread_name_template": {
+                "name": "Thread Name Template",
+                "value": "*None*"
+              }
+            }
+          },
+          "messages": {
+            "title": "Messages linked to this Form",
+            "description": {
+              "list": "Here is a list of all messages that are linked to this form. To edit one of them just click on *go to*, right click on the message and select `Apps` → `Edit this message`.\n{0}",
+              "empty": "You can link custom messages to this form using {0}."
+            }
+          }
+        }
+      },
       "create": {
         "title_invalid_length": {
           "title": "Invalid Input",
@@ -530,6 +566,13 @@
   },
   "ui": {
     "buttons": {
+      "form": {
+        "form_fields": "Form Fields",
+        "configure_roles": "Configure Roles",
+        "ratelimit": "Ratelimit Settings",
+        "private_channel": "Private Channel Settings",
+        "forum_channel": "Forum Channel Settings"
+      },
       "private_channel": {
         "delete_this_channel": "Delete this Channel"
       },
