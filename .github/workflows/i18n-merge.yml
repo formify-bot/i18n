@@ -17,7 +17,7 @@ jobs:
           ref: master
 
       - name: Merge Locale Files
-        uses: larrrssss/i18n-merge@v1.0.1
+        uses: larrrssss/i18n-merge@v1.1.2
         id: merge
         with:
           workspace: ${{ github.workspace }}
@@ -25,6 +25,7 @@ jobs:
           output_file_path: 'output.json'
           locales_file_path: 'locales.json'
           base_file_name: 'base.json'
+          exclude: '/schemas/**'
 
       # Push the output file to the master branch. You can update this step to handle the output file with your own custom logic.
       - name: Push Output File
