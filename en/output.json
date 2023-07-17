@@ -1,8 +1,8 @@
 {
   "welcome": "Hello {0} :wave:\n\nYou receive this message because you are the owner of [**{1}**](https://discord.com/channels/{2}.",
   "thread_default_name": "Submissions {0} - {1}",
-  "name_is_valid": "{0} is valid",
-  "name_is_invalid": "{0} is invalid",
+  "name_is_valid": "`{0}` is valid",
+  "name_is_invalid": "`{0}` is invalid",
   "defaults": {
     "form_message_open_button_text": "Open Form",
     "form_message_editor_description": "Use the button below to open up the form."
@@ -523,6 +523,14 @@
           "message": {
             "label": "Message",
             "placeholder": "The content of your message. You can use /variables here."
+          }
+        }
+      },
+      "report": {
+        "title": "Report an Issue or give a Suggestion",
+        "components": {
+          "issue": {
+            "label": "I've found an issue..."
           }
         }
       }
