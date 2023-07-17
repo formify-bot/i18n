@@ -1,0 +1,28 @@
+{
+  "user_message": {
+    "description": "Hello {0} :wave:\n\nYou receive this message because you are the owner of [**{1}**](https://discord.com/channels/{2}).\n\nThank you for adding Formify to your server. You are now ready to create your first form. Just follow these few steps.",
+    "footer": "Made with ❤️ from Germany"
+  },
+  "getting_started": {
+    "title": "Getting Started",
+    "description": "You added the bot but don't know how exactly to start now? Here are some useful tips for you!"
+  },
+  "tips": {
+    "create_form": {
+      "name": ":book: Create your Form",
+      "value": "To begin, you need to create your first form using {0}. Each form needs a title and a channel where all submissions will be logged. The channel can be either a normal text channel or a thread. If you use a thread, <@945331235977310280> will always unarchive it automatically."
+    },
+    "create_form_fields": {
+      "name": ":bookmark_tabs: Create Form Fields",
+      "value": "After you have created the form, you need to create fields with {0}. Fields are used to create the structure of the form. Select the form from the last step and add the data as described in the command structure. You can create up to 5 fields per form."
+    },
+    "create_form_command": {
+      "name": "<:slash_command:947243655129862174> Create a Form Command",
+      "value": "It's time to create a custom form command. Any user in your Discord can use this command to open your form and submit data. You can create your command using {0}."
+    },
+    "ready": {
+      "name": ":confetti_ball: Ready to Go!",
+      "value": "You are ready to go. Just use your command from the last step to open your form and submit data!\n\nWe hope you'll have a great experience with Formify and welcome you in our community!"
+    }
+  }
+}

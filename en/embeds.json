@@ -14,5 +14,9 @@
   "support": {
     "title": "Are you looking for help?",
     "description": "Our [support server]({0}) is the best place for all formify questions. You can even participate in the development and suggest new features."
+  },
+  "invite": {
+    "title": "Invite Formify",
+    "description": "To invite me to your Discord server, just open my profile and click `Add to Server`."
   }
 }
