@@ -1,0 +1,9 @@
+{
+  "only_owner": {
+    "title": "Only the server owner can use this command"
+  },
+  "confirm": {
+    "title": "Request Data Deletion",
+    "description": "We are sorry to hear that you are leaving Formify.\n\nUsing this command will delete all data related to **{0}**. Please make sure all following points are correct before confirming this deletion process:\n\nServer: {0}\nOwner: {1}\n\nThe following data will be deleted:\n\n• Forms\n• Form Fields\n• Form Commands\n• Form Messages\n\nIf you are really sure, you can perform the deletion via \"Confirm deletion\"."
+  }
+}
