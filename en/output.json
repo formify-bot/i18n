@@ -701,6 +701,11 @@
       "private_channel": {
         "delete_this_channel": "Delete this Channel"
       },
+      "thread": {
+        "close": "Close Thread",
+        "create": "Create Thread",
+        "delete": "Delete Thread"
+      },
       "confirm_data_deletion": "Confirm deletion"
     },
     "modals": {
