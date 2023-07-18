@@ -100,6 +100,24 @@
           "value": "These tags are automatically added to new form submissions:\n\n{0}"
         }
       }
+    },
+    "private_channel": {
+      "title": "Private Channel Settings",
+      "fields": {
+        "parent": {
+          "name": "Parent Channel",
+          "value": "Set a parent channel using {0}"
+        },
+        "auto_create": {
+          "name": "Auto Create on Submission"
+        },
+        "template": {
+          "name": "Channel Name Template"
+        },
+        "topic": {
+          "name": "Custom Channel Topic"
+        }
+      }
     }
   },
   "create": {
