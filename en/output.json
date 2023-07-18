@@ -511,6 +511,14 @@
         "auto_create_not_allowed": {
           "title": "Not Allowed",
           "description": "To enable automatic creation of private channels, you must first specify a parent using {0}."
+        },
+        "channel_must_be_forum": {
+          "title": "Channel must be a forum channel",
+          "description": "The configured channel is not a forum channel. Use {0} to set a forum channel as your submission channel."
+        },
+        "tag_mismatch": {
+          "title": "Select menu options are not up to date",
+          "description": "There is a mismatch between the options of the select menu and the available tags of <#{0}>. Use this command again to get the latest options."
         }
       },
       "ratelimit": {
