@@ -752,7 +752,8 @@
         "create": "Create Message"
       },
       "private_channel": {
-        "delete_this_channel": "Delete this Channel"
+        "delete_this_channel": "Delete this Channel",
+        "create": "Create Private Channel"
       },
       "thread": {
         "close": "Close Thread",
@@ -760,7 +761,8 @@
         "delete": "Delete Thread"
       },
       "confirm_data_deletion": "Confirm deletion",
-      "cancel": "Cancel"
+      "cancel": "Cancel",
+      "send_direct_message": "Send Direct Message to User"
     },
     "modals": {
       "dm": {
@@ -795,7 +797,12 @@
         "blocked_roles": "Blocked Roles",
         "notify_roles": "Notify Roles"
       },
-      "update_form_tags": "Automatically assign tags to submissions"
+      "update_form_tags": "Automatically assign tags to submissions",
+      "download": {
+        "placeholder": "Download this form submission",
+        "option_description": "Download this form submission as a .{0} file"
+      },
+      "assign_roles_to_user": "Assign roles to user"
     }
   },
   "validator": {
