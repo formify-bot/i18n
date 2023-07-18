@@ -172,5 +172,13 @@
       "title": "Invalid Timespan",
       "description": "The `timespan` could not be formatted correctly. Please use the following format:\n\n`45s` → *45 seconds*\n`2m` → *2 minutes*\n`4h` → *4 hours*\n`1d` → *1 day*"
     }
+  },
+  "not_configured": {
+    "title": "Form not configured",
+    "description": "This form is not configured correctly. Please contact the server administrator."
+  },
+  "disabled": {
+    "title": "Form is disabled",
+    "description": "This form has been disabled by an administrator. Please contact the server administrator."
   }
 }
