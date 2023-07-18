@@ -425,6 +425,39 @@
               "value": "These roles receive a ping each time a new form is submitted:\n\n{0}"
             }
           }
+        },
+        "ratelimit": {
+          "title": "Rate Limit",
+          "description": "Prevent spam or control exactly how many submissions are allowed in a given time period.",
+          "fields": {
+            "enabled": {
+              "name": "Enabled"
+            },
+            "scope": {
+              "name": "Scope",
+              "value": {
+                "server": "Server",
+                "user": "User"
+              }
+            },
+            "amount": {
+              "name": "Amount"
+            },
+            "timespan": {
+              "name": "Timespan"
+            }
+          }
+        },
+        "forum_channel": {
+          "no_tags_selected": "*No tags selected",
+          "title": "Forum Channel Settings",
+          "description": "The settings below are only relevant if your submission channel is a forum channel.",
+          "fields": {
+            "tags": {
+              "name": "Submission Tags",
+              "value": "These tags are automatically added to new form submissions:\n\n{0}"
+            }
+          }
         }
       },
       "create": {
@@ -668,7 +701,8 @@
         "allowed_roles": "Allowed Roles",
         "blocked_roles": "Blocked Roles",
         "notify_roles": "Notify Roles"
-      }
+      },
+      "update_form_tags": "Automatically assign tags to submissions"
     }
   },
   "validator": {
