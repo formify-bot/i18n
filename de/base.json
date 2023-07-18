@@ -1,0 +1,7 @@
+{
+  "welcome": "Hallo {0} :wave:\n\nDu erhälst diese Nachricht, weil dir der Server [**{1}**](https://discord.com/channels/{2}) gehört.",
+  "thread_default_name": "Einsendung {0} - {1}",
+  "name_is_valid": "`{0}` ist gültig",
+  "name_is_invalid": "`{0}` ist ungültig",
+  "none": "Keine"
+}
