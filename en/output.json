@@ -698,6 +698,10 @@
         "forum_channel": "Forum Channel Settings",
         "back": "Back"
       },
+      "message": {
+        "edit": "Edit Message",
+        "create": "Create Message"
+      },
       "private_channel": {
         "delete_this_channel": "Delete this Channel"
       },
@@ -706,7 +710,8 @@
         "create": "Create Thread",
         "delete": "Delete Thread"
       },
-      "confirm_data_deletion": "Confirm deletion"
+      "confirm_data_deletion": "Confirm deletion",
+      "cancel": "Cancel"
     },
     "modals": {
       "dm": {
