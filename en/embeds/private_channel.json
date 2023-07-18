@@ -25,5 +25,13 @@
       "title": "Channel Created Successfully",
       "description": "Head over to {0} to start your conversation with {1}."
     }
+  },
+  "created": {
+    "title": "Private Channel Created",
+    "description": "The private channel was successfully created and can be accessed at {0}"
+  },
+  "cannot_create": {
+    "title": "Cannot Create Private Channel",
+    "description": "Something went wrong while creating the private channel. Try to use the button above or use {0}."
   }
 }

@@ -1,0 +1,10 @@
+{
+  "plain_text": {
+    "title": "Plain Text Message",
+    "components": {
+      "content": {
+        "label": "Content"
+      }
+    }
+  }
+}

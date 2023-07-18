@@ -188,5 +188,29 @@
   "too_many_submissions": {
     "title": "Too Many Submissions",
     "description": "You have submitted this form too many times. Wait some time and try again."
-  }
+  },
+  "submission": {
+    "title": "New Form Submisison",
+    "fields": {
+      "form": {
+        "name": "Form"
+      },
+      "user_id": {
+        "name": "User ID"
+      },
+      "user": {
+        "name": "User"
+      },
+      "tag": {
+        "name": "Tag"
+      },
+      "account_created": {
+        "name": "User Account Created"
+      },
+      "submitted_at": {
+        "name": "Form Submitted"
+      }
+    }
+  },
+  "empty_submission": "*Empty form submission*"
 }
