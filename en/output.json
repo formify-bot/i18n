@@ -6,7 +6,8 @@
   "none": "None",
   "defaults": {
     "form_message_open_button_text": "Open Form",
-    "form_message_editor_description": "Use the button below to open up the form."
+    "form_message_editor_description": "Use the button below to open up the form.",
+    "form_submission_text": "Hey {user}! Thank you for submitting this form. We have recorded following answers:"
   },
   "embeds": {
     "data_deletion": {
@@ -546,7 +547,31 @@
       "too_many_submissions": {
         "title": "Too Many Submissions",
         "description": "You have submitted this form too many times. Wait some time and try again."
-      }
+      },
+      "submission": {
+        "title": "New Form Submisison",
+        "fields": {
+          "form": {
+            "name": "Form"
+          },
+          "user_id": {
+            "name": "User ID"
+          },
+          "user": {
+            "name": "User"
+          },
+          "tag": {
+            "name": "Tag"
+          },
+          "account_created": {
+            "name": "User Account Created"
+          },
+          "submitted_at": {
+            "name": "Form Submitted"
+          }
+        }
+      },
+      "empty_submission": "*Empty form submission*"
     },
     "news": {
       "unsubscribed": {
@@ -585,6 +610,14 @@
           "title": "Channel Created Successfully",
           "description": "Head over to {0} to start your conversation with {1}."
         }
+      },
+      "created": {
+        "title": "Private Channel Created",
+        "description": "The private channel was successfully created and can be accessed at {0}"
+      },
+      "cannot_create": {
+        "title": "Cannot Create Private Channel",
+        "description": "Something went wrong while creating the private channel. Try to use the button above or use {0}."
       }
     },
     "roles": {
@@ -744,6 +777,14 @@
         "components": {
           "issue": {
             "label": "I've found an issue..."
+          }
+        }
+      },
+      "plain_text": {
+        "title": "Plain Text Message",
+        "components": {
+          "content": {
+            "label": "Content"
           }
         }
       }
