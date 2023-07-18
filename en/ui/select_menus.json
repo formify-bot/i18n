@@ -1,3 +1,8 @@
 {
-  "update_form_tags": "Automatically assign tags to submissions"
+  "update_form_tags": "Automatically assign tags to submissions",
+  "download": {
+    "placeholder": "Download this form submission",
+    "option_description": "Download this form submission as a .{0} file"
+  },
+  "assign_roles_to_user": "Assign roles to user"
 }
