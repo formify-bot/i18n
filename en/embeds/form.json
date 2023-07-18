@@ -180,5 +180,13 @@
   "disabled": {
     "title": "Form is disabled",
     "description": "This form has been disabled by an administrator. Please contact the server administrator."
+  },
+  "missing_access_to_open": {
+    "title": "Missing Access",
+    "description": "You are not allowed to use this form due to missing permissions."
+  },
+  "too_many_submissions": {
+    "title": "Too Many Submissions",
+    "description": "You have submitted this form too many times. Wait some time and try again."
   }
 }
