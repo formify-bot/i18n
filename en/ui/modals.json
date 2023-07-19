@@ -6,5 +6,8 @@
         "label": "Content"
       }
     }
+  },
+  "update_form_field": {
+    "title": "Update Field"
   }
 }

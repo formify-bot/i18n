@@ -27,5 +27,14 @@
     "subscribed": {
       "title": "Subscribed"
     }
+  },
+  "report": {
+    "spam": {
+      "title": "Nobody likes spam :/"
+    },
+    "created": {
+      "title": "Thank you",
+      "description": "Thanks for helping to improve this bot"
+    }
   }
 }

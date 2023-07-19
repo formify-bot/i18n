@@ -212,5 +212,19 @@
       }
     }
   },
-  "empty_submission": "*Empty form submission*"
+  "empty_submission": "*Empty form submission*",
+  "invalid_configuration": {
+    "title": "Invalid Configuration",
+    "description": "The channel for all submissions has been deleted"
+  },
+  "confirm_submission": {
+    "title": "Confirm your Submission",
+    "description": "Take time to review your data. You can edit form fields using the drop-down menu below. When you are done editing, submit your form by clicking Submit.",
+    "fields": {
+      "data_stored": {
+        "name": "What data will be stored about me?",
+        "value": "We do not store any of the data you entered below. Once you submit the form, we send your data directly to the owner of the form - probably the server staff. This means that your data will be stored in a message on the Discord server. For more information, please read [Discord's privacy policy](https://discord.com/privacy).\n\nFormify acts only as a messenger between you and the server staff. We will **never store** form inputs."
+      }
+    }
+  }
 }

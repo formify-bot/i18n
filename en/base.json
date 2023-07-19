@@ -3,5 +3,6 @@
   "thread_default_name": "Submissions {0} - {1}",
   "name_is_valid": "`{0}` is valid",
   "name_is_invalid": "`{0}` is invalid",
-  "none": "None"
+  "none": "None",
+  "empty": "Empty"
 }
