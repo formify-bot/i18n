@@ -850,6 +850,13 @@
     "email": "Email",
     "url": "URL",
     "date": "Date",
-    "regex": "RegEx"
+    "regex": "RegEx",
+    "error_messages": {
+      "number": "This field must be number",
+      "email": "This field must be a valid email",
+      "url": "This field must be a valid url",
+      "regex": "This field does not match the defined pattern",
+      "date": "This field must be a valid date. The format must conform either [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) or [RFC 2822](https://www.rfc-editor.org/rfc/rfc2822#section-3.3) format (Examples: `YYYY-MM-DD`, `2013-02-08 09:30`)"
+    }
   }
 }
