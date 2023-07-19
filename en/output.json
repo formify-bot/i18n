@@ -4,6 +4,7 @@
   "name_is_valid": "`{0}` is valid",
   "name_is_invalid": "`{0}` is invalid",
   "none": "None",
+  "empty": "Empty",
   "defaults": {
     "form_message_open_button_text": "Open Form",
     "form_message_editor_description": "Use the button below to open up the form.",
@@ -571,7 +572,21 @@
           }
         }
       },
-      "empty_submission": "*Empty form submission*"
+      "empty_submission": "*Empty form submission*",
+      "invalid_configuration": {
+        "title": "Invalid Configuration",
+        "description": "The channel for all submissions has been deleted"
+      },
+      "confirm_submission": {
+        "title": "Confirm your Submission",
+        "description": "Take time to review your data. You can edit form fields using the drop-down menu below. When you are done editing, submit your form by clicking Submit.",
+        "fields": {
+          "data_stored": {
+            "name": "What data will be stored about me?",
+            "value": "We do not store any of the data you entered below. Once you submit the form, we send your data directly to the owner of the form - probably the server staff. This means that your data will be stored in a message on the Discord server. For more information, please read [Discord's privacy policy](https://discord.com/privacy).\n\nFormify acts only as a messenger between you and the server staff. We will **never store** form inputs."
+          }
+        }
+      }
     },
     "news": {
       "unsubscribed": {
@@ -740,6 +755,15 @@
       "subscribed": {
         "title": "Subscribed"
       }
+    },
+    "report": {
+      "spam": {
+        "title": "Nobody likes spam :/"
+      },
+      "created": {
+        "title": "Thank you",
+        "description": "Thanks for helping to improve this bot"
+      }
     }
   },
   "reasons": {
@@ -749,6 +773,12 @@
   },
   "ui": {
     "buttons": {
+      "dm": {
+        "send": "Send Message",
+        "edit": "Edit Message",
+        "submit_with_nickname": "Submit with Nickname",
+        "post_anonymously": "Post Anonymously"
+      },
       "form": {
         "form_fields": "Form Fields",
         "configure_roles": "Configure Roles",
@@ -776,7 +806,9 @@
       "support": "Support Server",
       "vote": "Vote on Top.gg",
       "donate": "Donate",
-      "unsubscribe": "Unsubscribe"
+      "unsubscribe": "Unsubscribe",
+      "privacy_policy": "Formify's Privacy Policy",
+      "submit": "Submit"
     },
     "modals": {
       "dm": {
@@ -803,6 +835,9 @@
             "label": "Content"
           }
         }
+      },
+      "update_form_field": {
+        "title": "Update Field"
       }
     },
     "select_menus": {
@@ -841,10 +876,12 @@
         "placeholder": "Download this form submission",
         "option_description": "Download this form submission as a .{0} file"
       },
-      "assign_roles_to_user": "Assign roles to user"
+      "assign_roles_to_user": "Assign roles to user",
+      "edit_form_field": "Edit a Form Field"
     }
   },
   "validator": {
+    "index": "Validator",
     "none": "None",
     "number": "Number",
     "email": "Email",
