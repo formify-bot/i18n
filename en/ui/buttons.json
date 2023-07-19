@@ -1,5 +1,9 @@
 {
   "confirm_data_deletion": "Confirm deletion",
   "cancel": "Cancel",
-  "send_direct_message": "Send Direct Message to User"
+  "send_direct_message": "Send Direct Message to User",
+  "support": "Support Server",
+  "vote": "Vote on Top.gg",
+  "donate": "Donate",
+  "unsubscribe": "Unsubscribe"
 }
