@@ -1,0 +1,25 @@
+{
+  "placeholder": "Feel free to rate us (Anonymous)",
+  "options": {
+    "0": {
+      "label": "One Star",
+      "description": "Terrible"
+    },
+    "1": {
+      "label": "Two Stars",
+      "description": "Poor"
+    }, 
+    "2": {
+      "label": "Three Stars",
+      "description": "Average"
+    },
+    "3": {
+      "label": "Four Stars",
+      "description": "Good"
+    },
+    "4": {
+      "label": "Five Stars",
+      "description": "Excellent"
+    } 
+  }
+}
