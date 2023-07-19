@@ -14,6 +14,19 @@
     "delete_this_channel": "Delete this Channel"
   },
   "create": {
+    "invalid_configuration": {
+      "title": "Invalid Configuration",
+      "description": "To create private channels you must define a parent channel using {0}"
+    },
+    "parent_not_found": {
+      "title": "Parent not Found",
+      "description": "Looks like the defined parent does not exist anymore"
+    },
+    "missing_permissions": {
+      "title": "Missing Permissions",
+      "manage_channel": "I need the `Manage Channels` permission to create private channels underneath the defined category.",
+      "create_private_threads": "I need the `Create Private Threads` permission to create private threads in the defined channel."
+    },
     "user_not_found": {
       "title": "User not Found",
       "description": "The form submitter left the server."
@@ -24,6 +37,10 @@
     "success": {
       "title": "Channel Created Successfully",
       "description": "Head over to {0} to start your conversation with {1}."
+    },
+    "something_went_wrong": {
+      "title": "Something went wrong",
+      "description": "An error occurred while creating the channel. Check the permissions and try again or use {0}."
     }
   },
   "created": {
@@ -33,5 +50,15 @@
   "cannot_create": {
     "title": "Cannot Create Private Channel",
     "description": "Something went wrong while creating the private channel. Try to use the button above or use {0}."
+  },
+  "initial": {
+    "title": "Private Channel",
+    "description": "This is a private channel between the server staff and {0}. Use the data below for your conversation.",
+    "fields": {
+      "toggle_member_list": {
+        "name": "Toggle Member List",
+        "value": "To display the member list on the right, click the \"Show Member List\" icon at the top. This will allow you to see who is able to view your messages."
+      }
+    }
   }
 }
