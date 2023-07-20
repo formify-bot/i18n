@@ -1,0 +1,54 @@
+{
+  "fields": {
+    "title": {
+      "label": "Title",
+      "description": "Customize the embed title",
+      "remove": "Remove Title"
+    },
+    "description": {
+      "label": "Description",
+      "description": "Customize the embed description",
+      "remove": "Remove Description"
+    },
+    "color": {
+      "label": "Color",
+      "description": "Customize the embed color",
+      "remove": "Remove Color"
+    },
+    "author": {
+      "label": "Author",
+      "description": "Customize the embed author field",
+      "remove": "Remove Author"
+    },
+    "footer": {
+      "label": "Footer",
+      "description": "Customize the embed footer",
+      "remove": "Remove Footer"
+    },
+    "image": {
+      "label": "Image",
+      "description": "Customize the embed image (big image)",
+      "remove": "Remove Image"
+    },
+    "thumbnail": {
+      "label": "Thumbnail",
+      "description": "Customize the embed thumbnail (small image)",
+      "remove": "Remove Thumbnail"
+    }
+  },
+  "update_field": {
+    "placeholder": "Add or edit an embed field"
+  },
+  "remove_field": {
+    "placeholder": "Remove an embed field"
+  },
+  "color": {
+    "placeholder": "Update Embed Color",
+    "options": {
+      "custom": {
+        "label": "Custom Color",
+        "description": "Use a custom hex color code as embed color"
+      }
+    }
+  }
+}

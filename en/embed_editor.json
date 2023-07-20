@@ -1,0 +1,10 @@
+{
+  "field_cannot_be_deleted": {
+    "title": "Cannot delete",
+    "description": "It looks like the selected field cannot be deleted"
+  },
+  "invalid_value": {
+    "title": "Invalid Entry",
+    "description": "It looks like the specified value does not match the given requirements"
+  }
+}

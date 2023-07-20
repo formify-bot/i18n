@@ -9,5 +9,44 @@
   },
   "update_form_field": {
     "title": "Update Field"
+  },
+  "embed_editor": {
+    "update_field": {
+      "title": "Form Message Editor",
+      "components": {
+        "title": {
+          "label": "Title"
+        },
+        "description": {
+          "label": "Description"
+        },
+        "color": {
+          "label": "Color",
+          "description": "This should be a hexadecimal code or a number representation of a number."
+        },
+        "author_text": {
+          "label": "Author Text"
+        },
+        "author_icon": {
+          "label": "Author Icon (URL)",
+          "placeholder": "This is only avaiable in combination with the input above. Format: https://example.com/image.png"
+        },
+        "footer_text": {
+          "label": "Footer Text"
+        },
+        "footer_icon": {
+          "label": "Footer Icon (URL)",
+          "placeholder": "This is only avaiable in combination with the input above. Format: https://example.com/image.png"
+        },
+        "image": {
+          "label": "Image (big image)",
+          "placeholder": "Format: https://example.com/image.png"
+        },
+        "thumbnail": {
+          "label": "Thumbnail (small image)",
+          "placeholder": "Format: https://example.com/image.png"
+        }
+      }
+    }
   }
 }
