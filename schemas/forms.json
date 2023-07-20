@@ -7,14 +7,16 @@
   "description_localizations": {
     "de": "Erhalte einen Überblick über all deine Formulare"
   },
-  "options": {
-    "name": "form",
-    "name_localizations": {
-      "de": "formular"
-    },
-    "description": "Select a form you want to show",
-    "description_localizations": {
-      "de": "Wähle ein Formular aus, das du anzeigen möchtest"
+  "options": [
+    {
+      "name": "form",
+      "name_localizations": {
+        "de": "formular"
+      },
+      "description": "Select a form you want to show",
+      "description_localizations": {
+        "de": "Wähle ein Formular aus, das du anzeigen möchtest"
+      }
     }
-  }
+  ]
 }
