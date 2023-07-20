@@ -6,5 +6,29 @@
   "description": "Create powerfull forms inside Discord",
   "description_localizations": {
     "de": "Erstelle Formulare in Discord"
-  }
+  },
+  "options": [
+    {
+      "name": "commands",
+      "options": [
+        {
+          "name": "delete",
+          "name_localizations": {
+            "de": "löschen"
+          },
+          "options": [
+            {
+              "name": "form",
+              "name_localizations": {
+                "de": "formular"
+              },
+              "description_localizations": {
+                "de": "Von welchem Formular möchtest du den Befehl löschen?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
