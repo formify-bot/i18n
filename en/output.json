@@ -10,6 +10,16 @@
     "form_message_editor_description": "Use the button below to open up the form.",
     "form_submission_text": "Hey {user}! Thank you for submitting this form. We have recorded following answers:"
   },
+  "embed_editor": {
+    "field_cannot_be_deleted": {
+      "title": "Cannot delete",
+      "description": "It looks like the selected field cannot be deleted"
+    },
+    "invalid_value": {
+      "title": "Invalid Entry",
+      "description": "It looks like the specified value does not match the given requirements"
+    }
+  },
   "embeds": {
     "data_deletion": {
       "only_owner": {
@@ -341,7 +351,7 @@
         "editor": {
           "info": {
             "title": "Form Message Editor",
-            "description": "A FormMessage is a custom message through which users can call your form.\n\nTo give you as many options as possible, below this embed is a preview of your message, which you can edit using the controls below. Each embed field is available for editing. The disabled button is the one that is used to call up your form. You can edit this one using the optional fields on ${interaction.client.getCommandMention('form messages create')}.\n\nWhen you are done editing, you can send the message by clicking \"Create Message\".",
+            "description": "A FormMessage is a custom message through which users can call your form.\n\nTo give you as many options as possible, below this embed is a preview of your message, which you can edit using the controls below. Each embed field is available for editing. The disabled button is the one that is used to call up your form. You can edit this one using the optional fields on {0}.\n\nWhen you are done editing, you can send the message by clicking \"Create Message\".",
             "fields": {
               "channel": {
                 "name": "Channel",
@@ -866,9 +876,102 @@
       },
       "update_form_field": {
         "title": "Update Field"
+      },
+      "embed_editor": {
+        "update_field": {
+          "title": "Form Message Editor",
+          "components": {
+            "title": {
+              "label": "Title"
+            },
+            "description": {
+              "label": "Description"
+            },
+            "color": {
+              "label": "Color",
+              "description": "This should be a hexadecimal code or a number representation of a number."
+            },
+            "author_text": {
+              "label": "Author Text"
+            },
+            "author_icon": {
+              "label": "Author Icon (URL)",
+              "placeholder": "This is only avaiable in combination with the input above. Format: https://example.com/image.png"
+            },
+            "footer_text": {
+              "label": "Footer Text"
+            },
+            "footer_icon": {
+              "label": "Footer Icon (URL)",
+              "placeholder": "This is only avaiable in combination with the input above. Format: https://example.com/image.png"
+            },
+            "image": {
+              "label": "Image (big image)",
+              "placeholder": "Format: https://example.com/image.png"
+            },
+            "thumbnail": {
+              "label": "Thumbnail (small image)",
+              "placeholder": "Format: https://example.com/image.png"
+            }
+          }
+        }
       }
     },
     "select_menus": {
+      "embed_editor": {
+        "fields": {
+          "title": {
+            "label": "Title",
+            "description": "Customize the embed title",
+            "remove": "Remove Title"
+          },
+          "description": {
+            "label": "Description",
+            "description": "Customize the embed description",
+            "remove": "Remove Description"
+          },
+          "color": {
+            "label": "Color",
+            "description": "Customize the embed color",
+            "remove": "Remove Color"
+          },
+          "author": {
+            "label": "Author",
+            "description": "Customize the embed author field",
+            "remove": "Remove Author"
+          },
+          "footer": {
+            "label": "Footer",
+            "description": "Customize the embed footer",
+            "remove": "Remove Footer"
+          },
+          "image": {
+            "label": "Image",
+            "description": "Customize the embed image (big image)",
+            "remove": "Remove Image"
+          },
+          "thumbnail": {
+            "label": "Thumbnail",
+            "description": "Customize the embed thumbnail (small image)",
+            "remove": "Remove Thumbnail"
+          }
+        },
+        "update_field": {
+          "placeholder": "Add or edit an embed field"
+        },
+        "remove_field": {
+          "placeholder": "Remove an embed field"
+        },
+        "color": {
+          "placeholder": "Update Embed Color",
+          "options": {
+            "custom": {
+              "label": "Custom Color",
+              "description": "Use a custom hex color code as embed color"
+            }
+          }
+        }
+      },
       "field": {
         "allowed_roles": "Allowed Roles",
         "blocked_roles": "Blocked Roles",
