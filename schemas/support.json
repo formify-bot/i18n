@@ -1,0 +1,10 @@
+{
+  "name": "support",
+  "name_localizations": {
+    "de": "unterstützung"
+  },
+  "description": "We are always here to help",
+  "description_localizations": {
+    "de": "Wir sind immer hier, um zu helfen"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "help",
+  "name_localizations": {
+    "de": "hilfe"
+  },
+  "description": "Here are some useful tips for you",
+  "description_localizations": {
+    "de": "Hier sind einige nützliche Tipps für dich"
+  }
+}

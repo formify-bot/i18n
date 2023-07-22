@@ -1,0 +1,10 @@
+{
+  "name": "report",
+  "name_localizations": {
+    "de": "melden"
+  },
+  "description": "Report a bug or give a suggestion",
+  "description_localizations": {
+    "de": "Melde einen Fehler oder gib eine Anregung"
+  }
+}

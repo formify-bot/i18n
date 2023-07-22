@@ -1,0 +1,10 @@
+{
+  "name": "news",
+  "name_localizations": {
+    "de": "neuigkeiten"
+  },
+  "description": "Checkout our latest changes",
+  "description_localizations": {
+    "de": "Schau dir unsere neuesten Änderungen an"
+  }
+}

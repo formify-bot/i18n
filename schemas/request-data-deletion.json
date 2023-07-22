@@ -1,0 +1,10 @@
+{
+  "name": "request-data-deletion",
+  "name_localizations": {
+    "de": "anfrage-zur-löschung-von-daten"
+  },
+  "description": "Request a full data deletion",
+  "description_localizations": {
+    "de": "Vollständige Datenlöschung beantragen"
+  }
+}

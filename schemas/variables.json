@@ -1,0 +1,10 @@
+{
+  "name": "variables",
+  "name_localizations": {
+    "de": "variablen"
+  },
+  "description": "A list of all available variables",
+  "description_localizations": {
+    "de": "Eine Liste aller verfügbaren Variablen"
+  }
+}

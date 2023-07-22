@@ -1,0 +1,10 @@
+{
+  "name": "invite",
+  "name_localizations": {
+    "de": "einladen"
+  },
+  "description": "Invite Formify to your Discord server",
+  "description_localizations": {
+    "de": "Lade Formify auf deinen Discord-Server ein"
+  }
+}

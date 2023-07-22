@@ -1,0 +1,306 @@
+{
+  "name": "form",
+  "name_localizations": {
+    "de": "formular"
+  },
+  "description": "Create powerfull forms inside Discord",
+  "description_localizations": {
+    "de": "Erstelle Formulare in Discord"
+  },
+  "options": [
+    {
+      "name": "commands",
+      "name_localizations": {
+        "de": "befehle"
+      },
+      "description": "Settings for slash commands",
+      "description_localizations": {
+        "de": "Einstellungen für Befehle"
+      },
+      "options": [
+        {
+          "name": "add",
+          "name_localizations": {
+            "de": "hinzufügen"
+          },
+          "description": "Add a command to your form",
+          "description_localizations": {
+            "de": "Füge einen Befehl zum Formular hinzu"
+          },
+          "options": [
+            {
+              "name": "form",
+              "name_localizations": {
+                "de": "formular"
+              },
+              "description": "To which form should this command be added to?",
+              "description_localizations": {
+                "de": "Zu welchem Formular soll dieser Befehl hinzugefügt werden?"
+              }
+            },
+            {
+              "name": "name",
+              "name_localizations": {
+                "de": "name"
+              },
+              "description": "Slash command name (1-32 characters)",
+              "description_localizations": {
+                "de": "Befehlsname (1-32 Zeichen)"
+              }
+            },
+            {
+              "name": "description",
+              "name_localizations": {
+                "de": "beschreibung"
+              },
+              "description": "Command description (1-100 characters)",
+              "description_localizations": {
+                "de": "Befehlsbeschreibung (1-100 Zeichen)"
+              }
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "name_localizations": {
+            "de": "löschen"
+          },
+          "description": "Delete a form command",
+          "description_localizations": {
+            "de": "Befehl löschen"
+          },
+          "options": [
+            {
+              "name": "form",
+              "name_localizations": {
+                "de": "formular"
+              },
+              "description": "From which form do you want to delete the command?",
+              "description_localizations": {
+                "de": "Von welchem Formular möchtest du den Befehl löschen?"
+              }
+            }
+          ]
+        },
+        {
+          "name": "edit",
+          "name_localizations": {
+            "de": "bearbeiten"
+          },
+          "description": "Edit a form command",
+          "description_localizations": {
+            "de": "Befehl berarbeiten"
+          },
+          "options": [
+            {
+              "name": "form",
+              "name_localizations": {
+                "de": "formular"
+              },
+              "description": "From which form do you want to edit the command?",
+              "description_localizations": {
+                "de": "Von welchem Formular möchtest du den Befehl bearbeiten?"
+              }
+            },
+            {
+              "name": "name",
+              "name_localizations": {
+                "de": "name"
+              },
+              "description": "Slash command name (1-32 characters)",
+              "description_localizations": {
+                "de": "Befehlsname (1-32 Zeichen)"
+              }
+            },
+            {
+              "name": "description",
+              "name_localizations": {
+                "de": "beschreibung"
+              },
+              "description": "Command description (1-100 characters)",
+              "description_localizations": {
+                "de": "Befehlsbeschreibung (1-100 Zeichen)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "create",
+      "name_localizations": {
+        "de": "erstellen"
+      },
+      "description": "Create a brand new form",
+      "description_localizations": {
+        "de": "Erstell eine neues Formular"
+      },
+      "options": [
+        {
+          "name": "title",
+          "name_localizations": {
+            "de": "titel"
+          },
+          "description": "Title of the form (1-45)",
+          "description_localizations": {
+            "de": "Titel des Formulars (1-45 Zeichen)"
+          }
+        },
+        {
+          "name": "channel",
+          "name_localizations": {
+            "de": "kanal"
+          },
+          "description": "Select a channel for all form submissions",
+          "description_localizations": {
+            "de": "Wähle einen Kanal für alle Formulareinreichungen aus"
+          }
+        },
+        {
+          "name": "enabled",
+          "name_localizations": {
+            "de": "aktiviert"
+          },
+          "description": "Whether this form is enabled for submissions (Default: True)",
+          "description_localizations": {
+            "de": "Ob dieses Formular für Einreichungen aktiviert ist (Standard: True)"
+          }
+        }
+      ]
+    },
+    {
+      "name": "delete",
+      "name_localizations": {
+        "de": "löschen"
+      },
+      "description": "Delete a form",
+      "description_localizations": {
+        "de": "Lösche ein Formular"
+      },
+      "options": [
+        {
+          "name": "form",
+          "name_localizations": {
+            "de": "formular"
+          },
+          "description": "Which form do you want to delete?",
+          "description_localizations": {
+            "de": "Welches Formular möchtest du löschen?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "edit",
+      "name_localizations": {
+        "de": "bearbeiten"
+      },
+      "description": "Edit a form",
+      "description_localizations": {
+        "de": "Bearbeite ein Formular"
+      },
+      "options": [
+        {
+          "name": "form",
+          "name_localizations": {
+            "de": "formular"
+          },
+          "description": "Which form do you want to edit?",
+          "description_localizations": {
+            "de": "Welches Formular möchtest du bearbeiten?"
+          }
+        },
+        {
+          "name": "enabled",
+          "name_localizations": {
+            "de": "aktiviert"
+          },
+          "description": "Whether this form is enabled for submissions",
+          "description_localizations": {
+            "de": "Ob dieses Formular für Einreichungen aktiviert ist"
+          }
+        },
+        {
+          "name": "title",
+          "name_localizations": {
+            "de": "titel"
+          },
+          "description": "Title of the form (1-45 characters)",
+          "description_localizations": {
+            "de": "Titel des Formulars (1-45 Zeichen)"
+          }
+        },
+        {
+          "name": "channel",
+          "name_localizations": {
+            "de": "kanal"
+          },
+          "description": "Select a channel for all form submissions",
+          "description_localizations": {
+            "de": "Wähle einen Kanal für alle Formulareinreichungen aus"
+          }
+        },
+        {
+          "name": "user_message",
+          "name_localizations": {
+            "de": "user_nachricht"
+          },
+          "description": "Setup a custom user message after form submission (/variables)",
+          "description_localizations": {
+            "de": "Eine benutzerdefinierte Nachricht nach der Formulareinreichung (/variablen)"
+          }
+        },
+        {
+          "name": "thread_name_template",
+          "name_localizations": {
+            "de": "thread_name_vorlage"
+          },
+          "description": "Define a template for new thread channel names (/variables)",
+          "description_localizations": {
+            "de": "Definiere eine Vorlage für neue Thread-Kanalnamen (/variablen)"
+          }
+        },
+        {
+          "name": "private_channel_parent",
+          "name_localizations": {
+            "de": "übergeordneter_privater_kanal"
+          },
+          "description": "Private channels will be created underneath a category or as a thread inside a channel",
+          "description_localizations": {
+            "de": "Private Kanäle werden entweder unter einer Kategorie erstellt oder als Thread innerhalb eines Kanals"
+          }
+        },
+        {
+          "name": "private_channel_name_template",
+          "name_localizations": {
+            "de": "privater_kanal_namens_vorlage"
+          },
+          "description": "This template will be used for new private channel names (/variables)",
+          "description_localizations": {
+            "de": "Vorlage für neue private Kanalnamen (/variablen)"
+          }
+        },
+        {
+          "name": "private_channel_auto_create",
+          "name_localizations": {
+            "de": "private_kanäle_auto_erstellung"
+          },
+          "description": "Auto create private channel when a form is submitted",
+          "description_localizations": {
+            "de": "Automatische Erstellung privater Kanäle bei Einreichung eines Formulars"
+          }
+        },
+        {
+          "name": "private_channel_topic",
+          "name_localizations": {
+            "de": "private_kanäle_thema"
+          },
+          "description": "Custom channel topic for private channels",
+          "description_localizations": {
+            "de": "Benutzerdefiniertes Kanalthema für private Kanäle"
+          }
+        }
+      ]
+    }
+  ]
+}

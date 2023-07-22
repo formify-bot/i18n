@@ -1,0 +1,22 @@
+{
+  "name": "is-valid-name",
+  "name_localizations": {
+    "de": "ist-gültiger-name"
+  },
+  "description": "Check if string is a valid slash command name",
+  "description_localizations": {
+    "de": "Überprüfe, ob ein String ein gültiger Befehlsname ist"
+  },
+  "options": [
+    {
+      "name": "name",
+      "name_localizations": {
+        "de": "name"
+      },
+      "description": "Which string would you like to check?",
+      "description_localizations": {
+        "de": "Welchen String möchtest du überprüfen?"
+      }
+    }
+  ]
+}

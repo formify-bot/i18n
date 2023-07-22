@@ -1,0 +1,10 @@
+{
+  "name": "subscribe",
+  "name_localizations": {
+    "de": "abonnieren"
+  },
+  "description": "Subscribe to our newsletter",
+  "description_localizations": {
+    "de": "Abonniere unseren Newsletter"
+  }
+}
