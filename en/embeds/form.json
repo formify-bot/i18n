@@ -12,10 +12,6 @@
           "channel": {
             "name": "Channel"
           },
-          "command": {
-            "name": "Command",
-            "value": "Open your form through a command. To create one use {0}."
-          },
           "user_message": {
             "name": "User Message",
             "value": "*None*"
@@ -256,23 +252,6 @@
       "invalid_length": {
         "title": "Invalid Input",
         "description": "`description` must be 100 or fewer in length"
-      }
-    },
-    "updated": {
-      "title": "Form Command Updated",
-      "fields": {
-        "form": {
-          "name": "Form",
-          "value": "{0}"
-        },
-        "command_name": {
-          "name": "Command",
-          "value": "{0}"
-        },
-        "command_description": {
-          "name": "Description",
-          "value": "{0}"
-        }
       }
     }
   }
