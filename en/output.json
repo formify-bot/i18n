@@ -807,6 +807,7 @@
         "private_channel": "Private Channel Settings",
         "forum_channel": "Forum Channel Settings",
         "delete_command": "Delete Command",
+        "form_command": "Command",
         "back": "Back"
       },
       "message": {
