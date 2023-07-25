@@ -396,7 +396,7 @@
           }
         },
         "forum_channel": {
-          "no_tags_selected": "*No tags selected",
+          "no_tags_selected": "*No tags selected*",
           "title": "Forum Channel Settings",
           "description": "The settings below are only relevant if your submission channel is a forum channel.",
           "fields": {
