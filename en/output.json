@@ -423,6 +423,16 @@
               "name": "Custom Channel Topic"
             }
           }
+        },
+        "command": {
+          "title": "Form Command",
+          "description": "Use a custom Discord slash command to open your form",
+          "no_command_exist": "To create a command, use the following command: {0}",
+          "fields": {
+            "command": {
+              "name": "Command"
+            }
+          }
         }
       },
       "create": {
@@ -796,6 +806,7 @@
         "ratelimit": "Ratelimit Settings",
         "private_channel": "Private Channel Settings",
         "forum_channel": "Forum Channel Settings",
+        "delete_command": "Delete Command",
         "back": "Back"
       },
       "message": {
