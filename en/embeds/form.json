@@ -226,5 +226,44 @@
         "value": "We do not store any of the data you entered below. Once you submit the form, we send your data directly to the owner of the form - probably the server staff. This means that your data will be stored in a message on the Discord server. For more information, please read [Discord's privacy policy](https://discord.com/privacy).\n\nFormify acts only as a messenger between you and the server staff. We will **never store** form inputs."
       }
     }
+  },
+  "command": {
+    "name": {
+      "invalid_length": {
+        "title": "Invalid Input",
+        "description": "`name` must be 32 or fewer in length"
+      },
+      "invalid_format": {
+        "title": "Invalid Input",
+        "description": "`name` is invalid. Use {0} to check your slash command name."
+      },
+      "reserved": {
+        "title": "Invalid Input",
+        "description": "`{0}` is a reserved name. You cannot use it."
+      }
+    },
+    "description": {
+      "invalid_length": {
+        "title": "Invalid Input",
+        "description": "`description` must be 100 or fewer in length"
+      }
+    },
+    "updated": {
+      "title": "Form Command Updated",
+      "fields": {
+        "form": {
+          "name": "Form",
+          "value": "{0}"
+        },
+        "command_name": {
+          "name": "Command",
+          "value": "{0}"
+        },
+        "command_description": {
+          "name": "Description",
+          "value": "{0}"
+        }
+      }
+    }
   }
 }
