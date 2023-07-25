@@ -4,5 +4,6 @@
   "ratelimit": "Ratelimit Settings",
   "private_channel": "Private Channel Settings",
   "forum_channel": "Forum Channel Settings",
+  "delete_command": "Delete Command",
   "back": "Back"
 }
