@@ -176,6 +176,10 @@
     "invalid_timespan": {
       "title": "Invalid Timespan",
       "description": "The `timespan` could not be formatted correctly. Please use the following format:\n\n`45s` → *45 seconds*\n`2m` → *2 minutes*\n`4h` → *4 hours*\n`1d` → *1 day*"
+    },
+    "invalid_amount": {
+      "title": "Invalid Amount",
+      "description": "The `amount` field must be a number"
     }
   },
   "not_configured": {
