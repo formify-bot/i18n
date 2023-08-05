@@ -409,13 +409,13 @@
               "name": "$hashtag$ Parent Channel"
             },
             "auto_create": {
-              "name": "Auto Create on Submission"
+              "name": "$loop$ Auto Create on Submission"
             },
             "template": {
               "name": "$puzzle$ Channel Name Template"
             },
             "topic": {
-              "name": "Custom Channel Topic"
+              "name": "$bubble$ Custom Channel Topic"
             }
           }
         },
