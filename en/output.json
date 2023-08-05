@@ -374,20 +374,20 @@
           "description": "Prevent spam or control exactly how many submissions are allowed in a given time period.",
           "fields": {
             "enabled": {
-              "name": "Enabled"
+              "name": "$check$ Enabled"
             },
             "scope": {
-              "name": "Scope",
+              "name": "$eye$ Scope",
               "value": {
                 "server": "Server",
                 "user": "User"
               }
             },
             "amount": {
-              "name": "Amount"
+              "name": "$123$ Amount"
             },
             "timespan": {
-              "name": "Timespan"
+              "name": "$time$ Timespan"
             }
           }
         },
