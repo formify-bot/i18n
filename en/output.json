@@ -406,14 +406,13 @@
           "title": "Private Channel Settings",
           "fields": {
             "parent": {
-              "name": "$hashtag$ Parent Channel",
-              "value": "Set a parent channel using {0}"
+              "name": "$hashtag$ Parent Channel"
             },
             "auto_create": {
               "name": "Auto Create on Submission"
             },
             "template": {
-              "name": "Channel Name Template"
+              "name": "$puzzle$ Channel Name Template"
             },
             "topic": {
               "name": "Custom Channel Topic"
