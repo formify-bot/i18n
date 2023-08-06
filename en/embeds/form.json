@@ -92,7 +92,7 @@
       "description": "The settings below are only relevant if your submission channel is a forum channel.",
       "fields": {
         "tags": {
-          "name": "Submission Tags",
+          "name": "$pricetag$ Submission Tags",
           "value": "These tags are automatically added to new form submissions:\n\n{0}"
         }
       }
