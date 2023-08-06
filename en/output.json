@@ -798,7 +798,13 @@
       },
       "private_channel": {
         "delete_this_channel": "Delete this Channel",
-        "create": "Create Private Channel"
+        "create": "Create Private Channel",
+        "set_channel_name_template": "Set Channel Name Template",
+        "set_custom_channel_topic": "Set Custom Channel Topic"
+      },
+      "ratelimit": {
+        "set_amount": "Set Amount",
+        "set_timespan": "Set Timespan"
       },
       "thread": {
         "close": "Close Thread",
@@ -806,6 +812,8 @@
         "delete": "Delete Thread"
       },
       "confirm_data_deletion": "Confirm deletion",
+      "enable": "Enable",
+      "disable": "Disable",
       "cancel": "Cancel",
       "close": "Close",
       "send_direct_message": "Send Direct Message to User",
@@ -823,6 +831,43 @@
           "message": {
             "label": "Message",
             "placeholder": "The content of your message. You can use /variables here."
+          }
+        }
+      },
+      "private_channel": {
+        "update_channel_template": {
+          "title": "Update Channel Template",
+          "components": {
+            "template": {
+              "label": "Channel Template"
+            }
+          }
+        },
+        "update_channel_topic": {
+          "title": "Update Channel Topic",
+          "components": {
+            "topic": {
+              "label": "Channel Topic"
+            }
+          }
+        }
+      },
+      "ratelimit": {
+        "update_amount": {
+          "title": "Update Ratelimit Amount",
+          "components": {
+            "amount": {
+              "label": "Amount"
+            }
+          }
+        },
+        "update_timespan": {
+          "title": "Update Ratelimit Timespan",
+          "components": {
+            "timespan": {
+              "label": "Timespan",
+              "placeholder": "Format: 2m = 2 minutes, 7h = 7 hours, 5d = 5 days"
+            }
           }
         }
       },
@@ -976,7 +1021,15 @@
         "option_description": "Download this form submission as a .{0} file"
       },
       "assign_roles_to_user": "Assign roles to user",
-      "edit_form_field": "Edit a Form Field"
+      "edit_form_field": "Edit a Form Field",
+      "ratelimit_change_scope": {
+        "placeholder": "Change Scope",
+        "options": {
+          "server": "Server",
+          "user": "User"
+        }
+      },
+      "private_channel_set_parent": "Set a Parent Channel for all private Channels"
     }
   },
   "validator": {
