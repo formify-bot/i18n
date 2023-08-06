@@ -120,7 +120,7 @@
       "no_command_exist": "To create a command, use the following command: {0}",
       "fields": {
         "command": {
-          "name": "Command"
+          "name": "$slashcommand$ Command"
         }
       }
     }
