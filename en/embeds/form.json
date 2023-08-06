@@ -48,18 +48,18 @@
       }
     },
     "roles": {
-      "title": "Roles",
+      "title": "$shield$ Roles",
       "fields": {
         "allowed_roles": {
-          "name": "Allowed Roles",
+          "name": "$shieldunlock$ Allowed Roles",
           "value": "Members need at least one of these roles to use this form:\n\n{0}"
         },
         "blocked_roles": {
-          "name": "Blocked Roles",
+          "name": "$shieldlock$ Blocked Roles",
           "value": "Members with any of the following roles **may not** use this form:\n\n{0}"
         },
         "notify_roles": {
-          "name": "Notify Roles",
+          "name": "$shielduser$ Notify Roles",
           "value": "These roles receive a ping each time a new form is submitted:\n\n{0}"
         }
       }
