@@ -1,0 +1,18 @@
+{
+  "update_channel_template": {
+    "title": "Update Channel Template",
+    "components": {
+      "template": {
+        "label": "Channel Template"
+      }
+    }
+  },
+  "update_channel_topic": {
+    "title": "Update Channel Topic",
+    "components": {
+      "topic": {
+        "label": "Channel Topic"
+      }
+    }
+  }
+}

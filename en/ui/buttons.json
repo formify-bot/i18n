@@ -1,5 +1,7 @@
 {
   "confirm_data_deletion": "Confirm deletion",
+  "enable": "Enable",
+  "disable": "Disable",
   "cancel": "Cancel",
   "close": "Close",
   "send_direct_message": "Send Direct Message to User",

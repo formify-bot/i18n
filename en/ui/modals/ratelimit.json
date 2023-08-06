@@ -1,0 +1,19 @@
+{
+  "update_amount": {
+    "title": "Update Ratelimit Amount",
+    "components": {
+      "amount": {
+        "label": "Amount"
+      }
+    }
+  },
+  "update_timespan": {
+    "title": "Update Ratelimit Timespan",
+    "components": {
+      "timespan": {
+        "label": "Timespan",
+        "placeholder": "Format: 2m = 2 minutes, 7h = 7 hours, 5d = 5 days"
+      }
+    }
+  }
+}
