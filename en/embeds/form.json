@@ -4,20 +4,20 @@
       "root": {
         "fields": {
           "enabled": {
-            "name": "Enabled"
+            "name": "$check$ Enabled"
           },
           "title": {
-            "name": "Title"
+            "name": "$quote$ Title"
           },
           "channel": {
-            "name": "Channel"
+            "name": "$hashtag$ Channel"
           },
           "user_message": {
-            "name": "User Message",
+            "name": "$quote$ User Message",
             "value": "*None*"
           },
           "thread_name_template": {
-            "name": "Thread Name Template",
+            "name": "$puzzle$ Thread Name Template",
             "value": "*None*"
           }
         }
