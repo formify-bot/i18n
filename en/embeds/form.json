@@ -48,7 +48,7 @@
       }
     },
     "roles": {
-      "title": "$shield$ Roles",
+      "title": "Roles",
       "fields": {
         "allowed_roles": {
           "name": "$shieldunlock$ Allowed Roles",
