@@ -800,7 +800,11 @@
         "delete_this_channel": "Delete this Channel",
         "create": "Create Private Channel",
         "set_channel_name_template": "Set Channel Name Template",
-        "set_custom_channel_topic": "Set Custom Channel Topic"
+        "set_custom_channel_topic": "Set Custom Channel Topic",
+        "auto_creation": {
+          "enable": "Enable Auto Creation",
+          "disable": "Disable Auto Creation"
+        }
       },
       "ratelimit": {
         "set_amount": "Set Amount",
