@@ -193,7 +193,8 @@
   "submission": {
     "title": "New Form Submisison",
     "description": "$menumid$ $pages$ Form: **{0}** `{1}`\n$menumid$ $user$ Account: <@{2}> `{2}`\n$menulast$ $time$ Submitted At: <t:{3}> (<t:{3}:R>)",
-    "too_large": "This submission is too large to be displayed using Discord embeds. As a result, the files above contain all of the data."
+    "too_large": "This submission is too large to be displayed using Discord embeds. As a result, the files above contain all of the data.",
+    "too_large_user": "Your submission is too large to be displayed using Discord embeds. As a result, we've included the files above that contain all of your data."
   },
   "empty_submission": "*Empty form submission*",
   "invalid_configuration": {
@@ -202,13 +203,7 @@
   },
   "confirm_submission": {
     "title": "Confirm your Submission",
-    "description": "Take time to review your data. You can edit form fields using the drop-down menu below. When you are done editing, submit your form by clicking Submit.",
-    "fields": {
-      "data_stored": {
-        "name": "What data will be stored about me?",
-        "value": "We do not store any of the data you entered below. Once you submit the form, we send your data directly to the owner of the form - probably the server staff. This means that your data will be stored in a message on the Discord server. For more information, please read [Discord's privacy policy](https://discord.com/privacy).\n\nFormify acts only as a messenger between you and the server staff. We will **never store** form inputs."
-      }
-    }
+    "description": "Take time to review your data. You can edit form fields using the drop-down menu below. When you are done editing, submit your form by clicking Submit."
   },
   "command": {
     "name": {
@@ -253,5 +248,9 @@
   "select_download_format": {
     "title": "Download Form Submission",
     "description": "In which format would you like to download this form submission?"
+  },
+  "saved_as_draft": {
+    "title": "Submission saved as Draft",
+    "description": "Your form progress has been saved. When you return, you'll pick up right where you left off."
   }
 }

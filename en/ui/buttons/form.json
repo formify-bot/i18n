@@ -11,5 +11,7 @@
     "continue": "Continue working on the Draft",
     "blank": "Open blank Form"
   },
-  "submitted_successfully": "Form submitted successfully"
+  "submitted_successfully": "Form submitted successfully",
+  "save_as_draft": "Save your Submission as Draft",
+  "fill_out_next_page": "Fill out the Next Page"
 }
