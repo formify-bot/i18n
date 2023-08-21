@@ -7,10 +7,6 @@
     "title": "Invalid Message",
     "description": "Use the button on the initial form submission again."
   },
-  "new_form_reply_dm": {
-    "title": "New Form Reply",
-    "description": "You received a new message for one of your form submissions on [**{0}**](https://discord.com/channels/{1})."
-  },
   "form_reply_thread_message_content": "{0} sent a direct message to the user",
   "send": {
     "success": {

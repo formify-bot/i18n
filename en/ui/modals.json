@@ -10,6 +10,14 @@
   "update_form_field": {
     "title": "Update Field"
   },
+  "update_page_title": {
+    "title": "Update Custom Page Title",
+    "components": {
+      "title": {
+        "label": "Custom Page Title"
+      }
+    }
+  },
   "embed_editor": {
     "update_field": {
       "title": "Form Message Editor",
