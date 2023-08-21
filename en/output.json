@@ -8,7 +8,9 @@
   "failed_to_load": "Failed to load",
   "content": {
     "form_submitted_dm_message": "You have successfully submitted **{0}** on [**{1}**](https://discord.com/channels/{2})",
-    "submitting_form": "$loading$ Submitting your data..."
+    "submitting_form": "$loading$ Submitting your data...",
+    "saved_settings": "Saved form settings and exited menu.",
+    "new_form_reply_dm": "You received a new message for one of your form submissions on [**{0}**](https://discord.com/channels/{1})."
   },
   "defaults": {
     "form_message_open_button_text": "Open Form",
@@ -43,10 +45,6 @@
       "invalid_message": {
         "title": "Invalid Message",
         "description": "Use the button on the initial form submission again."
-      },
-      "new_form_reply_dm": {
-        "title": "New Form Reply",
-        "description": "You received a new message for one of your form submissions on [**{0}**](https://discord.com/channels/{1})."
       },
       "form_reply_thread_message_content": "{0} sent a direct message to the user",
       "send": {
@@ -903,6 +901,14 @@
       },
       "update_form_field": {
         "title": "Update Field"
+      },
+      "update_page_title": {
+        "title": "Update Custom Page Title",
+        "components": {
+          "title": {
+            "label": "Custom Page Title"
+          }
+        }
       },
       "embed_editor": {
         "update_field": {
