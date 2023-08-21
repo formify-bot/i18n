@@ -5,6 +5,10 @@
   "name_is_invalid": "`{0}` is invalid",
   "none": "None",
   "empty": "Empty",
+  "failed_to_load": "Failed to load",
+  "content": {
+    "form_submitted_dm_message": "You have successfully submitted **{0}** on [**{1}**](https://discord.com/channels/{2})"
+  },
   "defaults": {
     "form_message_open_button_text": "Open Form",
     "form_message_editor_description": "Use the button below to open up the form.",
@@ -335,20 +339,12 @@
             }
           }
         },
-        "fields": {
-          "root": {
-            "title": "Form Fields",
-            "fields": {
-              "title": {
-                "name": "Title"
-              },
-              "fields": {
-                "name": "Fields",
-                "value": {
-                  "list": "Below is a list of all your form fields. To edit one of them use {0}.",
-                  "empty": "You have not added any fields to your form yet. Add your first field using {0}."
-                }
-              }
+        "pages": {
+          "title": "Form Page ({0}/{1})",
+          "description": "Below is a list of all your form fields. Use {0} to modify a form field or move it to a different form page.",
+          "fields": {
+            "custom_title": {
+              "name": "Custom Page Title"
             }
           }
         },
@@ -505,26 +501,8 @@
       },
       "submission": {
         "title": "New Form Submisison",
-        "fields": {
-          "form": {
-            "name": "Form"
-          },
-          "user_id": {
-            "name": "User ID"
-          },
-          "user": {
-            "name": "User"
-          },
-          "tag": {
-            "name": "Tag"
-          },
-          "account_created": {
-            "name": "User Account Created"
-          },
-          "submitted_at": {
-            "name": "Form Submitted"
-          }
-        }
+        "description": "$menumid$ $pages$ Form: **{0}** `{1}`\n$menumid$ $user$ Account: <@{2}> `{2}`\n$menulast$ $time$ Submitted At: <t:{3}> (<t:{3}:R>)",
+        "too_large": "This submission is too large to be displayed using Discord embeds. As a result, the files above contain all of the data."
       },
       "empty_submission": "*Empty form submission*",
       "invalid_configuration": {
@@ -562,6 +540,28 @@
             "description": "`description` must be 100 or fewer in length"
           }
         }
+      },
+      "draft": {
+        "title": "Draft Found",
+        "description": "Would you prefer to continue your work on it, or delete the draft and start filling out the form again?",
+        "fields": {
+          "last_edited": {
+            "name": "Last Edited",
+            "value": "<t:{0}> <t:{0}:R>"
+          }
+        }
+      },
+      "not_a_large_submission": {
+        "title": "Not Allowed",
+        "description": "You can only use this interaction for form submissions that are too large to be displayed using Discord embeds"
+      },
+      "not_a_submission": {
+        "title": "Not Allowed",
+        "description": "You can only use this interaction on form submissions"
+      },
+      "select_download_format": {
+        "title": "Download Form Submission",
+        "description": "In which format would you like to download this form submission?"
       }
     },
     "news": {
@@ -790,7 +790,12 @@
         "forum_channel": "Forum Channel Settings",
         "delete_command": "Delete Command",
         "form_command": "Command",
-        "back": "Back"
+        "back": "Back",
+        "draft": {
+          "continue": "Continue working on the Draft",
+          "blank": "Open blank Form"
+        },
+        "submitted_successfully": "Form submitted successfully"
       },
       "message": {
         "edit": "Edit Message",
@@ -826,7 +831,10 @@
       "donate": "Donate",
       "unsubscribe": "Unsubscribe",
       "privacy_policy": "Formify's Privacy Policy",
-      "submit": "Submit"
+      "submit": "Submit",
+      "next_page": "Next Page",
+      "previous_page": "Previous Page",
+      "learn_more_about_form_pages": "Learn more about Form Pages"
     },
     "modals": {
       "dm": {
