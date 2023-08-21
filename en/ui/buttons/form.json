@@ -6,5 +6,10 @@
   "forum_channel": "Forum Channel Settings",
   "delete_command": "Delete Command",
   "form_command": "Command",
-  "back": "Back"
+  "back": "Back",
+  "draft": {
+    "continue": "Continue working on the Draft",
+    "blank": "Open blank Form"
+  },
+  "submitted_successfully": "Form submitted successfully"
 }

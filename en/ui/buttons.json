@@ -10,5 +10,8 @@
   "donate": "Donate",
   "unsubscribe": "Unsubscribe",
   "privacy_policy": "Formify's Privacy Policy",
-  "submit": "Submit"
+  "submit": "Submit",
+  "next_page": "Next Page",
+  "previous_page": "Previous Page",
+  "learn_more_about_form_pages": "Learn more about Form Pages"
 }
