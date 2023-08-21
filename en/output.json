@@ -7,7 +7,8 @@
   "empty": "Empty",
   "failed_to_load": "Failed to load",
   "content": {
-    "form_submitted_dm_message": "You have successfully submitted **{0}** on [**{1}**](https://discord.com/channels/{2})"
+    "form_submitted_dm_message": "You have successfully submitted **{0}** on [**{1}**](https://discord.com/channels/{2})",
+    "submitting_form": "$loading$ Submitting your data..."
   },
   "defaults": {
     "form_message_open_button_text": "Open Form",
@@ -502,7 +503,8 @@
       "submission": {
         "title": "New Form Submisison",
         "description": "$menumid$ $pages$ Form: **{0}** `{1}`\n$menumid$ $user$ Account: <@{2}> `{2}`\n$menulast$ $time$ Submitted At: <t:{3}> (<t:{3}:R>)",
-        "too_large": "This submission is too large to be displayed using Discord embeds. As a result, the files above contain all of the data."
+        "too_large": "This submission is too large to be displayed using Discord embeds. As a result, the files above contain all of the data.",
+        "too_large_user": "Your submission is too large to be displayed using Discord embeds. As a result, we've included the files above that contain all of your data."
       },
       "empty_submission": "*Empty form submission*",
       "invalid_configuration": {
@@ -511,13 +513,7 @@
       },
       "confirm_submission": {
         "title": "Confirm your Submission",
-        "description": "Take time to review your data. You can edit form fields using the drop-down menu below. When you are done editing, submit your form by clicking Submit.",
-        "fields": {
-          "data_stored": {
-            "name": "What data will be stored about me?",
-            "value": "We do not store any of the data you entered below. Once you submit the form, we send your data directly to the owner of the form - probably the server staff. This means that your data will be stored in a message on the Discord server. For more information, please read [Discord's privacy policy](https://discord.com/privacy).\n\nFormify acts only as a messenger between you and the server staff. We will **never store** form inputs."
-          }
-        }
+        "description": "Take time to review your data. You can edit form fields using the drop-down menu below. When you are done editing, submit your form by clicking Submit."
       },
       "command": {
         "name": {
@@ -562,6 +558,10 @@
       "select_download_format": {
         "title": "Download Form Submission",
         "description": "In which format would you like to download this form submission?"
+      },
+      "saved_as_draft": {
+        "title": "Submission saved as Draft",
+        "description": "Your form progress has been saved. When you return, you'll pick up right where you left off."
       }
     },
     "news": {
@@ -795,7 +795,9 @@
           "continue": "Continue working on the Draft",
           "blank": "Open blank Form"
         },
-        "submitted_successfully": "Form submitted successfully"
+        "submitted_successfully": "Form submitted successfully",
+        "save_as_draft": "Save your Submission as Draft",
+        "fill_out_next_page": "Fill out the Next Page"
       },
       "message": {
         "edit": "Edit Message",
@@ -1045,7 +1047,7 @@
     }
   },
   "validator": {
-    "index": "Validator",
+    "index": "$warning$ Validator",
     "none": "None",
     "number": "Number",
     "email": "Email",
