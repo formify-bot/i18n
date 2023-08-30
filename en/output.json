@@ -216,6 +216,20 @@
           }
         }
       },
+      "links": {
+        "limit_reached": {
+          "title": "Form Link Limit Reached",
+          "description": "You reached your form link limit. You can create up to 1 form link."
+        },
+        "invalid_url": {
+          "title": "Invalid URL",
+          "description": "You must provide a valid url"
+        },
+        "invalid_emoji": {
+          "title": "Invalid Emoji",
+          "description": "The provided emoji is invalid"
+        }
+      },
       "messages": {
         "could_not_be_created": {
           "title": "Missing Permissions",
@@ -423,6 +437,10 @@
               "name": "$slashcommand$ Command"
             }
           }
+        },
+        "links": {
+          "title": "Form Links",
+          "description": "Add custom links to your form using {0}."
         }
       },
       "create": {
@@ -789,6 +807,7 @@
         "delete_command": "Delete Command",
         "form_pages": "Form Pages",
         "form_command": "Command",
+        "form_links": "Links",
         "back": "Back",
         "draft": {
           "continue": "Continue working on the Draft",
