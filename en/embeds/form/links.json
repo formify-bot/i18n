@@ -1,0 +1,14 @@
+{
+  "limit_reached": {
+    "title": "Form Link Limit Reached",
+    "description": "You reached your form link limit. You can create up to 1 form link."
+  },
+  "invalid_url": {
+    "title": "Invalid URL",
+    "description": "You must provide a valid url"
+  },
+  "invalid_emoji": {
+    "title": "Invalid Emoji",
+    "description": "The provided emoji is invalid"
+  }
+}

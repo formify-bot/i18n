@@ -115,6 +115,10 @@
           "name": "$slashcommand$ Command"
         }
       }
+    },
+    "links": {
+      "title": "Form Links",
+      "description": "Add custom links to your form using {0}."
     }
   },
   "create": {
