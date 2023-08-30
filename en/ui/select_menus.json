@@ -13,5 +13,6 @@
       "user": "User"
     }
   },
-  "private_channel_set_parent": "Set a Parent Channel for all private Channels"
+  "private_channel_set_parent": "Set a Parent Channel for all private Channels",
+  "form_links_delete": "Delete a Link"
 }
