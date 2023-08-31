@@ -8,6 +8,7 @@
   "form_pages": "Form Pages",
   "form_command": "Command",
   "form_links": "Links",
+  "form_checkboxes": "Checkboxes",
   "back": "Back",
   "draft": {
     "continue": "Continue working on the Draft",

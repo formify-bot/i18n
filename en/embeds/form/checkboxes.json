@@ -1,0 +1,6 @@
+{
+  "limit_reached": {
+    "title": "Form Checkbox Limit Reached",
+    "description": "You reached your form checkbox limit. You can create up to 1 form checkbox."
+  }
+}
