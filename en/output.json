@@ -129,6 +129,12 @@
       }
     },
     "form": {
+      "checkboxes": {
+        "limit_reached": {
+          "title": "Form Checkbox Limit Reached",
+          "description": "You reached your form checkbox limit. You can create up to 1 form checkbox."
+        }
+      },
       "fields": {
         "add": {
           "limit_reached": {
@@ -441,6 +447,10 @@
         "links": {
           "title": "Form Links",
           "description": "Add custom links to your form using {0}."
+        },
+        "checkboxes": {
+          "title": "Form Checkboxes",
+          "description": "Add checkboxes to your form using {0}."
         }
       },
       "create": {
@@ -520,7 +530,12 @@
         "title": "New Form Submisison",
         "description": "$menumid$ $pages$ Form: **{0}** `{1}`\n$menumid$ $user$ Account: <@{2}> `{2}`\n$menulast$ $time$ Submitted At: <t:{3}> (<t:{3}:R>)",
         "too_large": "This submission is too large to be displayed using Discord embeds. As a result, the files above contain all of the data.",
-        "too_large_user": "Your submission is too large to be displayed using Discord embeds. As a result, we've included the files above that contain all of your data."
+        "too_large_user": "Your submission is too large to be displayed using Discord embeds. As a result, we've included the files above that contain all of your data.",
+        "fields": {
+          "checkbox": {
+            "name": "Checkbox"
+          }
+        }
       },
       "empty_submission": "*Empty form submission*",
       "invalid_configuration": {
@@ -808,6 +823,7 @@
         "form_pages": "Form Pages",
         "form_command": "Command",
         "form_links": "Links",
+        "form_checkboxes": "Checkboxes",
         "back": "Back",
         "draft": {
           "continue": "Continue working on the Draft",
