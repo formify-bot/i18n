@@ -451,7 +451,11 @@
         "checkboxes": {
           "title": "Form Checkboxes",
           "description": "Add checkboxes to your form using {0}.",
-          "checkbox_description": "**{0}**\n$menulast$Required: {1}"
+          "fields": {
+            "checkbox": {
+              "value": "$menulast$ Required: {0}"
+            }
+          }
         }
       },
       "create": {
