@@ -4,7 +4,7 @@
     "placeholder": "Download this form submission",
     "option_description": "Download this form submission as a .{0} file"
   },
-  "assign_roles_to_user": "Assign roles to user",
+  "toggle_roles_of_user": "Toggle user roles",
   "edit_form_field": "Edit a Form Field",
   "ratelimit_change_scope": {
     "placeholder": "Change Scope",
