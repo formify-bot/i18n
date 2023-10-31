@@ -701,13 +701,25 @@
         "title": "Unable to Assign managed Roles",
         "description": "Roles managed by an interaction cannot be assigned to users. Update your selection and try again.\n\nFollowing roles in your selection are affected: {0}."
       },
+      "unable_to_toggle_managed_roles": {
+        "title": "Unable to Toggle managed Roles",
+        "description": "Roles managed by an interaction cannot be toggled. Update your selection and try again.\n\nFollowing roles in your selection are affected: {0}."
+      },
       "unable_to_assign": {
         "title": "Some of the selected roles cannot be assigned",
         "description": "Due to the role hierarchy, some of the selected roles cannot be assigned. The following roles are affected by this error: {0}.\n\nKeep in mind, bot roles cannot be assigned at all. We filtered these out. Update the role hierarchy as shown below and try again."
       },
+      "unable_to_toggle": {
+        "title": "Some of the selected roles cannot be toggled",
+        "description": "Due to the role hierarchy, some of the selected roles cannot be toggled. The following roles are affected by this error: {0}.\n\nKeep in mind, bot roles cannot be assigned at all. We filtered these out. Update the role hierarchy as shown below and try again."
+      },
       "assigned": {
-        "title": "Role Assigned",
+        "title": "Roles Assigned",
         "description": "Assigned following roles to {0}: {1}"
+      },
+      "toggled": {
+        "title": "Roles Toggled",
+        "description": "The following roles were toggled for {0}: {1}"
       }
     },
     "threads": {
@@ -1081,7 +1093,7 @@
         "placeholder": "Download this form submission",
         "option_description": "Download this form submission as a .{0} file"
       },
-      "assign_roles_to_user": "Assign roles to user",
+      "toggle_roles_of_user": "Toggle user roles",
       "edit_form_field": "Edit a Form Field",
       "ratelimit_change_scope": {
         "placeholder": "Change Scope",
