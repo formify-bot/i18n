@@ -9,7 +9,8 @@
   "content": {
     "form_submitted_dm_message": "You have successfully submitted **{0}** on [**{1}**](https://discord.com/channels/{2})",
     "submitting_form": "$loading$ Submitting your data...",
-    "saved_settings": "Saved form settings and exited menu.",
+    "saved_form_settings": "Saved form settings and exited menu.",
+    "saved_user_settings": "Saved preferences and exited menu.",
     "new_form_reply_dm": "You received a new message for one of your form submissions on [**{0}**](https://discord.com/channels/{1})."
   },
   "defaults": {
@@ -815,6 +816,10 @@
         "title": "Thank you",
         "description": "Thanks for helping to improve this bot"
       }
+    },
+    "personal_preferences": {
+      "title": "Personal Preferences",
+      "description": "$menumid$ $language$ Language: ${0}$ {0}\n$menulast$ $sync$ Auto Save Drafts: {1}"
     }
   },
   "reasons": {
@@ -887,7 +892,9 @@
       "submit": "Submit",
       "next_page": "Next Page",
       "previous_page": "Previous Page",
-      "learn_more_about_form_pages": "Learn more about Form Pages"
+      "learn_more_about_form_pages": "Learn more about Form Pages",
+      "disable_auto_save_drafts": "Disable Auto Save Drafts",
+      "enable_auto_save_drafts": "Enable Auto Save Drafts"
     },
     "modals": {
       "dm": {
@@ -1104,7 +1111,8 @@
       },
       "private_channel_set_parent": "Set a Parent Channel for all private Channels",
       "form_links_delete": "Delete a Link",
-      "form_checkboxes_delete": "Delete a Checkbox"
+      "form_checkboxes_delete": "Delete a Checkbox",
+      "change_language": "Change preferred language"
     }
   },
   "validator": {
