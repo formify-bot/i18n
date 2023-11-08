@@ -36,5 +36,9 @@
       "title": "Thank you",
       "description": "Thanks for helping to improve this bot"
     }
+  },
+  "personal_preferences": {
+    "title": "Personal Preferences",
+    "description": "$menumid$ $language$ Language: ${0}$ {0}\n$menulast$ $sync$ Auto Save Drafts: {1}"
   }
 }
