@@ -1,6 +1,7 @@
 {
   "form_submitted_dm_message": "You have successfully submitted **{0}** on [**{1}**](https://discord.com/channels/{2})",
   "submitting_form": "$loading$ Submitting your data...",
-  "saved_settings": "Saved form settings and exited menu.",
+  "saved_form_settings": "Saved form settings and exited menu.",
+  "saved_user_settings": "Saved preferences and exited menu.",
   "new_form_reply_dm": "You received a new message for one of your form submissions on [**{0}**](https://discord.com/channels/{1})."
 }
