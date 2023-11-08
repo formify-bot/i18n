@@ -1,0 +1,10 @@
+{
+  "name": "preferences",
+  "name_localizations": {
+    "de": "einstellungen"
+  },
+  "description": "Change your personal preferences",
+  "description_localizations": {
+    "de": "Ändere deine persönlichen Einstellungen"
+  }
+}
