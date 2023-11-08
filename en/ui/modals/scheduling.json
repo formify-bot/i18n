@@ -1,0 +1,22 @@
+{
+  "update_timestamps": {
+    "start": {
+      "title": "Set Scheduled Start Time",
+      "components": {
+        "time": {
+          "label": "Scheduled Start Time",
+          "placeholder": "DD/MM/YYYY hh:mm PM"
+        }
+      }
+    },
+    "end": {
+      "title": "Set Scheduled End Time",
+      "components": {
+        "time": {
+          "label": "Scheduled End Time",
+          "placeholder": "DD/MM/YYYY hh:mm PM"
+        }
+      }
+    }
+  }
+}
