@@ -128,6 +128,17 @@
           "value": "$menulast$ Required: {0}"
         }
       }
+    },
+    "scheduling": {
+      "title": "Scheduling",
+      "fields": {
+        "start": {
+          "name": "$stopwatch$ Scheduled Start Time"
+        },
+        "end": {
+          "name": "$stopwatch$ Scheduled End Time"
+        }
+      }
     }
   },
   "create": {
@@ -221,7 +232,13 @@
   },
   "confirm_submission": {
     "title": "Confirm your Submission",
-    "description": "Take time to review your data. You can edit form fields using the drop-down menu below. When you are done editing, submit your form by clicking Submit."
+    "description": "Take time to review your data. You can edit form fields using the drop-down menu below. When you are done editing, submit your form by clicking Submit.",
+    "fields": {
+      "closes_at": {
+        "name": "$stopwatch$ Form Closes At",
+        "value": "<t:{0}> (<t:{0}:R>)"
+      }
+    }
   },
   "command": {
     "name": {
@@ -270,5 +287,13 @@
   "saved_as_draft": {
     "title": "Submission saved as Draft",
     "description": "Your form progress has been saved. When you return, you'll pick up right where you left off."
+  },
+  "not_opened": {
+    "title": "Form not Opened Yet",
+    "description": "You cannot submit this form yet. This form will open <t:{0}:R>"
+  },
+  "closed": {
+    "title": "Form Closed",
+    "description": "You are too late. {0} has already been closed for new submissions."
   }
 }
