@@ -9,6 +9,7 @@
   "form_command": "Command",
   "form_links": "Links",
   "form_checkboxes": "Checkboxes",
+  "form_scheduling": "Scheduling",
   "back": "Back",
   "draft": {
     "continue": "Continue working on the Draft",
