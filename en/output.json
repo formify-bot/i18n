@@ -328,6 +328,24 @@
           "description": "To delete a created form message, simply delete the Discord message."
         }
       },
+      "scheduling": {
+        "invalid_format": {
+          "title": "Invalid Format",
+          "description": "Invalid date format specified. Use the following format: `DD/MM/YYYY hh:mm PM`.\n\n**Example**\n```{0}```"
+        },
+        "date_before_now": {
+          "title": "Invalid Date",
+          "description": "The specified date is in the past"
+        },
+        "date_before_start": {
+          "title": "Invalid Date",
+          "description": "The specified date is before the start date"
+        },
+        "date_after_end": {
+          "title": "Invalid Date",
+          "description": "The specified date is after the end date"
+        }
+      },
       "pages": {
         "initial": {
           "root": {
@@ -457,6 +475,17 @@
               "value": "$menulast$ Required: {0}"
             }
           }
+        },
+        "scheduling": {
+          "title": "Scheduling",
+          "fields": {
+            "start": {
+              "name": "$stopwatch$ Scheduled Start Time"
+            },
+            "end": {
+              "name": "$stopwatch$ Scheduled End Time"
+            }
+          }
         }
       },
       "create": {
@@ -550,7 +579,13 @@
       },
       "confirm_submission": {
         "title": "Confirm your Submission",
-        "description": "Take time to review your data. You can edit form fields using the drop-down menu below. When you are done editing, submit your form by clicking Submit."
+        "description": "Take time to review your data. You can edit form fields using the drop-down menu below. When you are done editing, submit your form by clicking Submit.",
+        "fields": {
+          "closes_at": {
+            "name": "$stopwatch$ Form Closes At",
+            "value": "<t:{0}> (<t:{0}:R>)"
+          }
+        }
       },
       "command": {
         "name": {
@@ -599,6 +634,14 @@
       "saved_as_draft": {
         "title": "Submission saved as Draft",
         "description": "Your form progress has been saved. When you return, you'll pick up right where you left off."
+      },
+      "not_opened": {
+        "title": "Form not Opened Yet",
+        "description": "You cannot submit this form yet. This form will open <t:{0}:R>"
+      },
+      "closed": {
+        "title": "Form Closed",
+        "description": "You are too late. {0} has already been closed for new submissions."
       }
     },
     "news": {
@@ -846,6 +889,7 @@
         "form_command": "Command",
         "form_links": "Links",
         "form_checkboxes": "Checkboxes",
+        "form_scheduling": "Scheduling",
         "back": "Back",
         "draft": {
           "continue": "Continue working on the Draft",
@@ -872,6 +916,10 @@
       "ratelimit": {
         "set_amount": "Set Amount",
         "set_timespan": "Set Timespan"
+      },
+      "scheduling": {
+        "set_start_time": "Set Scheduled Start Time",
+        "set_end_time": "Set Scheduled End Time"
       },
       "thread": {
         "close": "Close Thread",
@@ -948,6 +996,28 @@
         "components": {
           "issue": {
             "label": "I've found an issue..."
+          }
+        }
+      },
+      "scheduling": {
+        "update_timestamps": {
+          "start": {
+            "title": "Set Scheduled Start Time",
+            "components": {
+              "time": {
+                "label": "Scheduled Start Time",
+                "placeholder": "DD/MM/YYYY hh:mm PM"
+              }
+            }
+          },
+          "end": {
+            "title": "Set Scheduled End Time",
+            "components": {
+              "time": {
+                "label": "Scheduled End Time",
+                "placeholder": "DD/MM/YYYY hh:mm PM"
+              }
+            }
           }
         }
       },
