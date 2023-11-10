@@ -139,6 +139,17 @@
           "name": "$stopwatch$ Scheduled End Time"
         }
       }
+    },
+    "move_field": {
+      "title": "Move Field to Different Page",
+      "fields": {
+        "label": {
+          "name": "Label"
+        },
+        "current_page": {
+          "name": "Current Page"
+        }
+      }
     }
   },
   "create": {
@@ -295,5 +306,9 @@
   "closed": {
     "title": "Form Closed",
     "description": "You are too late. {0} has already been closed for new submissions."
+  },
+  "field_limit_per_page_reached": {
+    "title": "Field Limit per Page Reached",
+    "description": "Each page may contain a maximum of 5 fields"
   }
 }
