@@ -486,6 +486,17 @@
               "name": "$stopwatch$ Scheduled End Time"
             }
           }
+        },
+        "move_field": {
+          "title": "Move Field to Different Page",
+          "fields": {
+            "label": {
+              "name": "Label"
+            },
+            "current_page": {
+              "name": "Current Page"
+            }
+          }
         }
       },
       "create": {
@@ -642,6 +653,10 @@
       "closed": {
         "title": "Form Closed",
         "description": "You are too late. {0} has already been closed for new submissions."
+      },
+      "field_limit_per_page_reached": {
+        "title": "Field Limit per Page Reached",
+        "description": "Each page may contain a maximum of 5 fields"
       }
     },
     "news": {
@@ -1182,7 +1197,14 @@
       "private_channel_set_parent": "Set a Parent Channel for all private Channels",
       "form_links_delete": "Delete a Link",
       "form_checkboxes_delete": "Delete a Checkbox",
-      "change_language": "Change preferred language"
+      "change_language": "Change preferred language",
+      "move_field_to": {
+        "placeholder": "To which page should this field be moved?",
+        "options": {
+          "page": "Page {0} ({1}/{2} fields)",
+          "create": "Create new Page"
+        }
+      }
     }
   },
   "validator": {
