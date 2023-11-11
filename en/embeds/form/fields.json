@@ -2,7 +2,7 @@
   "add": {
     "limit_reached": {
       "title": "Form field limit reached",
-      "description": "You reached your form field limit. You can create up to 5 form fields."
+      "description": "You reached your form field limit. You can create up to 7 form fields."
     },
     "label_invalid_length": {
       "title": "Invalid Input",
