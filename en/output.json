@@ -906,6 +906,9 @@
         "form_checkboxes": "Checkboxes",
         "form_scheduling": "Scheduling",
         "back": "Back",
+        "page": {
+          "set_custom_title": "Set Custom Page Title"
+        },
         "draft": {
           "continue": "Continue working on the Draft",
           "blank": "Open blank Form"
@@ -1203,6 +1206,14 @@
         "options": {
           "page": "Page {0} ({1}/{2} fields)",
           "create": "Create new Page"
+        }
+      },
+      "move_field": {
+        "placeholder": "Move Form Field to different Page",
+        "options": {
+          "field": {
+            "description": "Move {0} to another page"
+          }
         }
       }
     }
