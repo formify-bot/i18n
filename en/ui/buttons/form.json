@@ -11,6 +11,9 @@
   "form_checkboxes": "Checkboxes",
   "form_scheduling": "Scheduling",
   "back": "Back",
+  "page": {
+    "set_custom_title": "Set Custom Page Title"
+  },
   "draft": {
     "continue": "Continue working on the Draft",
     "blank": "Open blank Form"
