@@ -391,15 +391,15 @@
           "fields": {
             "allowed_roles": {
               "name": "$shieldunlock$ Allowed Roles",
-              "value": "Members need at least one of these roles to use this form:\n\n{0}"
+              "value": "Members must have at least one of these roles to use this form. If no role is selected, *@everyone* can use it."
             },
             "blocked_roles": {
               "name": "$shieldlock$ Blocked Roles",
-              "value": "Members with any of the following roles **may not** use this form:\n\n{0}"
+              "value": "Members with any of the following roles **cannot** use this form."
             },
             "notify_roles": {
               "name": "$shielduser$ Notify Roles",
-              "value": "These roles receive a ping each time a new form is submitted:\n\n{0}"
+              "value": "Members with these roles will be notified each time a new form is submitted."
             }
           }
         },
