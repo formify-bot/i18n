@@ -432,7 +432,7 @@
           "fields": {
             "tags": {
               "name": "$pricetag$ Submission Tags",
-              "value": "These tags are automatically added to new form submissions:\n\n{0}"
+              "value": "These tags are automatically added to new form submissions."
             }
           }
         },
