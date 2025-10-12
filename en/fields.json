@@ -10,5 +10,12 @@
     "Role": "Role",
     "Mentionable": "Mentionable (User & Role)",
     "Channel": "Channel"
+  },
+  "details": {
+    "headline": "# Field Details",
+    "type": "### Type\n{0}",
+    "variant": "### Select Variant\n{0}",
+    "content": "### Content\n{0}",
+    "label": "### Label\n{0}"
   }
 }
