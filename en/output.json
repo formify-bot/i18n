@@ -884,7 +884,8 @@
     "fields": {
       "global_limit_reached": "### Global Form Field Limit Reached\nYou’ve reached the maximum number of form fields allowed per form. Each form can include up to 7 fields.",
       "page_limit_reached": "### Page Field Limit Reached\nYou’ve reached the maximum number of fields allowed on this page. Each page can include up to 5 fields."
-    }
+    },
+    "something_went_wrong": "### Something Went Wrong\nLooks like something went wrong with your request. If this error still occurs after retrying, contact us on our [Support Server](https://discord.gg/htgG685gc9)."
   },
   "reasons": {
     "private_channel_member_removed": "User removed through button interaction by {0} - {1}",
