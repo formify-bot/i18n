@@ -1,0 +1,4 @@
+{
+  "global_limit_reached": "### Global Form Field Limit Reached\nYou’ve reached the maximum number of form fields allowed per form. Each form can include up to 7 fields.",
+  "page_limit_reached": "### Page Field Limit Reached\nYou’ve reached the maximum number of fields allowed on this page. Each page can include up to 5 fields."
+}
