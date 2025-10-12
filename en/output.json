@@ -110,6 +110,9 @@
         "label": {
           "name": "Label"
         },
+        "content": {
+          "name": "Content"
+        },
         "placeholder": {
           "name": "Placeholder"
         },
@@ -919,6 +922,10 @@
         "edit": "Edit Message",
         "submit_with_nickname": "Submit with Nickname",
         "post_anonymously": "Post Anonymously"
+      },
+      "fields": {
+        "details": "Details",
+        "add_new": "Add new Field"
       },
       "form": {
         "form_fields": "Form Fields",
