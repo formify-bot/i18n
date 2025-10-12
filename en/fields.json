@@ -1,0 +1,14 @@
+{
+  "types": {
+    "TextDisplay": "Text Container",
+    "TextInput": "Text Input",
+    "Select": "Select Menu"
+  },
+  "variants": {
+    "String": "Custom",
+    "User": "User",
+    "Role": "Role",
+    "Mentionable": "Mentionable (User & Role)",
+    "Channel": "Channel"
+  }
+}
