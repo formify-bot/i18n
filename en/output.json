@@ -5,6 +5,8 @@
   "name_is_invalid": "`{0}` is invalid",
   "none": "None",
   "empty": "Empty",
+  "true": "True",
+  "false": "False",
   "failed_to_load": "Failed to load",
   "content": {
     "form_submitted_dm_message": "You have successfully submitted **{0}** on [**{1}**](https://discord.com/channels/{2})",
@@ -917,7 +919,8 @@
       "label": "### Label\n{0}",
       "default_values": "### Default Values for Select Menu",
       "min_values": "### Minimum number of Items\n{0}",
-      "max_values": "### Maximum number of Items\n{0}"
+      "max_values": "### Maximum number of Items\n{0}",
+      "required": "### Required"
     }
   },
   "reasons": {
