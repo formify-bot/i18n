@@ -14,16 +14,18 @@
   "details": {
     "headline": "# Field Details",
     "type": "### Type\n{0}",
-    "variant": "### Select Variant\n{0}",
     "content": "### Content\n{0}",
     "label": "### Label\n{0}",
-    "default_values": "### Default Values for Select Menu",
-    "min_values": "### Minimum number of Items\n{0}",
-    "max_values": "### Maximum number of Items\n{0}",
+    "default_values": "### Default values for select menu",
+    "min_values": "### Minimum number of items\n{0}",
+    "max_values": "### Maximum number of items\n{0}",
+    "min_length": "### Minimum input length\n{0}",
+    "max_length": "### Maximum input length\n{0}",
     "required": "### Required",
-    "channel_types": "### Allowed Channel Types",
+    "channel_types": "### Allowed channel types",
     "placeholder": "### Placeholder\n{0}",
     "value": "### Pre-filled Value\n{0}",
-    "description": "### Description\n{0}"
+    "description": "### Description\n{0}",
+    "style": "### Style"
   }
 }
