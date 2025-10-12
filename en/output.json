@@ -914,7 +914,10 @@
       "type": "### Type\n{0}",
       "variant": "### Select Variant\n{0}",
       "content": "### Content\n{0}",
-      "label": "### Label\n{0}"
+      "label": "### Label\n{0}",
+      "default_values": "### Default Values for Select Menu",
+      "min_values": "### Minimum number of Items\n{0}",
+      "max_values": "### Maximum number of Items\n{0}"
     }
   },
   "reasons": {
