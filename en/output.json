@@ -887,6 +887,20 @@
     },
     "something_went_wrong": "### Something Went Wrong\nLooks like something went wrong with your request. If this error still occurs after retrying, contact us on our [Support Server](https://discord.gg/htgG685gc9)."
   },
+  "fields": {
+    "types": {
+      "TextDisplay": "Text Container",
+      "TextInput": "Text Input",
+      "Select": "Select Menu"
+    },
+    "variants": {
+      "String": "Custom",
+      "User": "User",
+      "Role": "Role",
+      "Mentionable": "Mentionable (User & Role)",
+      "Channel": "Channel"
+    }
+  },
   "reasons": {
     "private_channel_member_removed": "User removed through button interaction by {0} - {1}",
     "thread_closed": "Thread closed by {0} - {1}",
