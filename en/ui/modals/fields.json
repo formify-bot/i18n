@@ -1,0 +1,20 @@
+{
+  "details": {
+    "content": {
+      "title": "Update Text Container",
+      "label": "Content"
+    },
+    "label": {
+      "title": "Update Field",
+      "label": "Label"
+    },
+    "placeholder": {
+      "title": "Update Field",
+      "label": "Placeholder"
+    },
+    "description": {
+      "title": "Update Field",
+      "label": "Description"
+    }
+  }
+}
