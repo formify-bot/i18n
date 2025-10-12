@@ -9,6 +9,9 @@
     "label": {
       "name": "Label"
     },
+    "content": {
+      "name": "Content"
+    },
     "placeholder": {
       "name": "Placeholder"
     },
