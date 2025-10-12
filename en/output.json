@@ -896,7 +896,10 @@
       "global_limit_reached": "### Global Form Field Limit Reached\nYou’ve reached the maximum number of form fields allowed per form. Each form can include up to 7 fields.",
       "page_limit_reached": "### Page Field Limit Reached\nYou’ve reached the maximum number of fields allowed on this page. Each page can include up to 5 fields."
     },
-    "something_went_wrong": "### Something Went Wrong\nLooks like something went wrong with your request. If this error still occurs after retrying, contact us on our [Support Server](https://discord.gg/htgG685gc9)."
+    "something_went_wrong": "### Something Went Wrong\nLooks like something went wrong with your request. If this error still occurs after retrying, contact us on our [Support Server](https://discord.gg/htgG685gc9).",
+    "value_has_to_be_a_number": "The value must be a number.",
+    "min_value_invalid_range": "The minimum value must be between 0 and 25 and cannot be greater than the maximum value.",
+    "max_value_invalid_range": "The maximum value must be less than or equal to 25 and cannot be less than the minimum value."
   },
   "fields": {
     "types": {
@@ -1024,6 +1027,26 @@
           "message": {
             "label": "Message",
             "placeholder": "The content of your message. You can use /variables here."
+          }
+        }
+      },
+      "fields": {
+        "details": {
+          "content": {
+            "title": "Update Text Container",
+            "label": "Content"
+          },
+          "label": {
+            "title": "Update Field",
+            "label": "Label"
+          },
+          "placeholder": {
+            "title": "Update Field",
+            "label": "Placeholder"
+          },
+          "description": {
+            "title": "Update Field",
+            "label": "Description"
           }
         }
       },
