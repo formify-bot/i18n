@@ -5,5 +5,7 @@
   "name_is_invalid": "`{0}` is invalid",
   "none": "None",
   "empty": "Empty",
+  "true": "True",
+  "false": "False",
   "failed_to_load": "Failed to load"
 }
