@@ -101,6 +101,12 @@
     },
     "field": {
       "fields": {
+        "type": {
+          "name": "Type"
+        },
+        "variant": {
+          "name": "Select Variant"
+        },
         "label": {
           "name": "Label"
         },
