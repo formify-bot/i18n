@@ -899,7 +899,8 @@
     "something_went_wrong": "### Something Went Wrong\nLooks like something went wrong with your request. If this error still occurs after retrying, contact us on our [Support Server](https://discord.gg/htgG685gc9).",
     "value_has_to_be_a_number": "The value must be a number.",
     "min_value_invalid_range": "The minimum value must be between 0 and 25 and cannot be greater than the maximum value.",
-    "max_value_invalid_range": "The maximum value must be less than or equal to 25 and cannot be less than the minimum value."
+    "max_value_invalid_range": "The maximum value must be less than or equal to 25 and cannot be less than the minimum value.",
+    "value_minimum_length_required": "The pre-filled value can’t be shorter than the minimum length for this field."
   },
   "fields": {
     "types": {
@@ -1047,6 +1048,10 @@
           "description": {
             "title": "Update Field",
             "label": "Description"
+          },
+          "value": {
+            "title": "Update Field",
+            "label": "Pre-filled Value"
           }
         }
       },
