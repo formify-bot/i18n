@@ -1052,6 +1052,30 @@
           "value": {
             "title": "Update Field",
             "label": "Pre-filled Value"
+          },
+          "min_length": {
+            "title": "Update Field",
+            "label": "Minimum Length",
+            "description": "Define the minimum text length for this input.",
+            "placeholder": "A number between 0 and 4000"
+          },
+          "max_length": {
+            "title": "Update Field",
+            "label": "Maximum Length",
+            "description": "Define the maximum text length for this input.",
+            "placeholder": "A number between 1 and 4000"
+          },
+          "min_values": {
+            "title": "Update Field",
+            "label": "Minimum Values",
+            "description": "Minimum number of items that can be chosen.",
+            "placeholder": "A number between 0 and 25"
+          },
+          "max_values": {
+            "title": "Update Field",
+            "label": "Maximum Values",
+            "description": "Maximum number of items that can be chosen.",
+            "placeholder": "A number between 1 and 25"
           }
         }
       },
