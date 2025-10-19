@@ -900,7 +900,10 @@
     "value_has_to_be_a_number": "The value must be a number.",
     "min_value_invalid_range": "The minimum value must be between 0 and 25 and cannot be greater than the maximum value.",
     "max_value_invalid_range": "The maximum value must be less than or equal to 25 and cannot be less than the minimum value.",
-    "value_minimum_length_required": "The pre-filled value can’t be shorter than the minimum length for this field."
+    "value_min_length_required": "The pre-filled value can’t be shorter than the minimum length for this field.",
+    "min_length_invalid_range": "The minimum length must be between 0 and 4000 and cannot be greater than the maximum length.",
+    "max_length_invalid_range": "The maximum length must be between 1 and 4000 and cannot be less than the minimum length.",
+    "value_too_long_for_update": "The pre-filled value exceeds your new maximum length requirement. Adjust the value or increase the limit to proceed."
   },
   "fields": {
     "types": {
@@ -1067,13 +1070,13 @@
           },
           "min_values": {
             "title": "Update Field",
-            "label": "Minimum Values",
+            "label": "Minimum number of items",
             "description": "Minimum number of items that can be chosen.",
             "placeholder": "A number between 0 and 25"
           },
           "max_values": {
             "title": "Update Field",
-            "label": "Maximum Values",
+            "label": "Maximum number of items",
             "description": "Maximum number of items that can be chosen.",
             "placeholder": "A number between 1 and 25"
           }
