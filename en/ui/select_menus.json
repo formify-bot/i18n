@@ -31,5 +31,14 @@
         "description": "Move {0} to another page"
       }
     }
+  },
+  "create_or_update_option": {
+    "placeholder": "Create or update select option",
+    "add_new": {
+      "label": "Add new option"
+    }
+  },
+  "delete_option": {
+    "placeholder": "Delete option"
   }
 }

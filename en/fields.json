@@ -26,6 +26,13 @@
     "placeholder": "### Placeholder\n{0}",
     "value": "### Pre-filled Value\n{0}",
     "description": "### Description\n{0}",
-    "style": "### Style"
+    "style": "### Style",
+    "options": {
+      "title": "### Options\n{0}",
+      "label": "Label",
+      "value": "Value",
+      "description": "Description",
+      "default": "Default"
+    } 
   }
 }
