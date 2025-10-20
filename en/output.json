@@ -944,7 +944,14 @@
       "placeholder": "### Placeholder\n{0}",
       "value": "### Pre-filled Value\n{0}",
       "description": "### Description\n{0}",
-      "style": "### Style"
+      "style": "### Style",
+      "options": {
+        "title": "### Options\n{0}",
+        "label": "Label",
+        "value": "Value",
+        "description": "Description",
+        "default": "Default"
+      }
     }
   },
   "reasons": {
@@ -1336,6 +1343,15 @@
             "description": "Move {0} to another page"
           }
         }
+      },
+      "create_or_update_option": {
+        "placeholder": "Create or update select option",
+        "add_new": {
+          "label": "Add new option"
+        }
+      },
+      "delete_option": {
+        "placeholder": "Delete option"
       }
     }
   },
