@@ -1053,6 +1053,10 @@
         }
       },
       "fields": {
+        "delete": {
+          "title": "Delete Form Field",
+          "text": "Are you sure you want to delete this form field? This action cannot be undone."
+        },
         "details": {
           "content": {
             "title": "Update Text Container",
