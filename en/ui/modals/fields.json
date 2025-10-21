@@ -48,5 +48,10 @@
       "description": "Maximum number of items that can be chosen.",
       "placeholder": "A number between 1 and 25"
     }
+  },
+  "add_new": {
+    "title": "Add New Field",
+    "type": "What type of field do you want to add?",
+    "page_id": "To which page do you want to add this field?"
   }
 }
