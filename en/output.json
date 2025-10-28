@@ -950,7 +950,8 @@
         "label": "Label",
         "value": "Value",
         "description": "Description",
-        "default": "Default"
+        "default": "Default",
+        "empty_warning": "$warning$ Add at least one option."
       }
     }
   },
