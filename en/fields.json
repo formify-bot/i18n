@@ -2,7 +2,8 @@
   "types": {
     "TextDisplay": "Text Container",
     "TextInput": "Text Input",
-    "Select": "Select Menu"
+    "Select": "Select Menu",
+    "SingleCheckbox": "Single Checkbox"
   },
   "variants": {
     "String": "Custom",
