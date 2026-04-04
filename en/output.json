@@ -952,6 +952,9 @@
         "description": "Description",
         "default": "Default",
         "empty_warning": "$warning$ Add at least one option."
+      },
+      "options_page": {
+        "title": "# Custom Select Options\n{0}"
       }
     }
   },
@@ -971,7 +974,10 @@
       "fields": {
         "details": "Details",
         "add_new": "Add new Field",
-        "delete": "Delete"
+        "delete": "Delete",
+        "next": "Next",
+        "back": "Back",
+        "back_to_details": "Back to Details"
       },
       "form": {
         "form_fields": "Form Fields",
