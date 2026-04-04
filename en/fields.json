@@ -34,6 +34,9 @@
       "description": "Description",
       "default": "Default",
       "empty_warning": "$warning$ Add at least one option."
+    },
+    "options_page": {
+      "title": "# Custom Select Options\n{0}"
     }
   }
 }
