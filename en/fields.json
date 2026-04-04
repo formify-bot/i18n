@@ -36,7 +36,7 @@
       "empty_warning": "$warning$ Add at least one option."
     },
     "options_page": {
-      "title": "# Custom Select Options\n{0}"
+      "title": "# Custom Select Options ({0}/{1})\nHere is a list of all your custom options for the selected menu. You can create, update, or delete them here.\n{2}"
     }
   }
 }
