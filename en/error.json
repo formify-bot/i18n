@@ -9,5 +9,6 @@
   "value_too_long_for_update": "The pre-filled value exceeds your new maximum length requirement. Adjust the value or increase the limit to proceed.",
   "value_too_short_for_update": "The pre-filled value is shorter than your new minimum length requirement. Adjust the value or lower the limit to proceed.",
   "min_value_exceeds_options": "Minimum value cannot exceed the number of available options.",
-  "max_value_exceeds_options": "Maximum value cannot exceed the number of available options."
+  "max_value_exceeds_options": "Maximum value cannot exceed the number of available options.",
+  "min_value_required_constraint": "Fields marked as required cannot have a min_values of 0."
 }
