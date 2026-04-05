@@ -933,6 +933,17 @@
       "Mentionable": "Mentionable (User & Role)",
       "Channel": "Channel"
     },
+    "descriptions": {
+      "Channel": "Select menu for channels",
+      "User": "Select menu for users",
+      "Role": "Select menu for roles",
+      "String": "Select menu for picking from custom text options",
+      "Mentionable": "Select menu for mentionables (users and roles)",
+      "TextDisplay": "Display static text content (markdown)",
+      "TextInput": "Enter a free-form text response",
+      "SingleCheckbox": "Single checkbox for yes/no choice",
+      "RadioGroup": "Single-choice set of options"
+    },
     "details": {
       "headline": "# Field Details",
       "type": "### Type\n{0}",
