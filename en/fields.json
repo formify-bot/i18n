@@ -41,7 +41,7 @@
     "description": "### Description\n{0}",
     "style": "### Style",
     "options": {
-      "title": "### Options\n{0}",
+      "title": "### Options ({0}/{1})\n{2}",
       "label": "Label",
       "value": "Value",
       "description": "Description",
@@ -49,7 +49,7 @@
       "empty_warning": "$warning$ Add at least one option."
     },
     "options_page": {
-      "title": "# Custom Select Options ({0}/{1})\nHere is a list of all your custom options for the selected menu. You can create, update, or delete them here.\n{2}"
+      "title": "# Custom Options ({0}/{1})\nHere is a list of all your custom options for the selected menu. You can create, update, or delete them here.\n\n{2}"
     },
     "checkbox_required_not_available": "The “required” option is not available for a single checkbox. However, you can easily work around this limitation. Simply use a Checkbox Group with one option and enable the “required” setting. This way, users must select the option before continuing—effectively creating a required checkbox.\n\n$bulb$ Follow [this tutorial](https://discord.com/channels/913969068904677426/1490426732199678252) to learn how to set up a Checkbox Group."
   }
