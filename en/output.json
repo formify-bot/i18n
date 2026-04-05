@@ -924,7 +924,8 @@
       "TextDisplay": "Text Container",
       "TextInput": "Text Input",
       "Select": "Select Menu",
-      "SingleCheckbox": "Single Checkbox"
+      "SingleCheckbox": "Single Checkbox",
+      "RadioGroup": "Radio Group"
     },
     "variants": {
       "String": "Custom",
